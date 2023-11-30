@@ -1,0 +1,4 @@
+/compiled_benchmarks/
+/config.json
+/results.csv
+.DS_Store

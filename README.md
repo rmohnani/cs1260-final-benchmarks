@@ -15,7 +15,7 @@ Here's how to get started running benchmarks for the final homework:
 git clone https://github.com/BrownCS1260/final-benchmarks.git benchmarks
 ```
 
-2. In the new benchmarks directory, make a `config.json` file. This file should
+2. In the new benchmarks directory, edit the `config.json` file. This file should
    be a JSON-formatted dictionary where the keys are configurations and the
    values are lists of pass names. For example, it might look like:
    
@@ -25,7 +25,7 @@ git clone https://github.com/BrownCS1260/final-benchmarks.git benchmarks
  "Constant propagation and inlining": ["uniquify-variables", "inline", "propagate-constants"]}
  ```
  
- 3. Run the benchmark script. It will run each benchmark 10 times using each
+ 3. Run the benchmark script from the `benchmark` directory. It will run each benchmark 10 times using each
     specified configuration and write the results to `results.csv`.
     
  ```shell

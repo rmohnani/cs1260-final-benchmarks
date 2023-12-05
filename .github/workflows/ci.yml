@@ -20,6 +20,7 @@ jobs:
             repository: 'browncs1260/assignments'
             submodules: recursive
             path: 'assignments'
+            token: ${{ secrets.ACCESS_TOKEN_2023 }}
       - name: Check out benchmark tests repo
         uses: actions/checkout@v4
         with:

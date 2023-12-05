@@ -1,0 +1,30 @@
+name: Validate tests against reference
+on: 
+    push: 
+        branches:
+         - 'main'
+    pull_request: 
+        types: [opened, review_requested, ready_for_review]
+jobs:
+  tests:
+    name: Check that tests are valid
+    if: github.repository_owner == 'browncs1260'
+    runs-on: ubuntu-latest
+    container:
+        image: jiahuac/cs1260:main
+        options: --user root  
+    steps:
+      - name: Check out assignments repo
+        uses: actions/checkout@v4
+        with:
+            repository: 'browncs1260/assignments'
+            submodules: recursive
+            path: 'assignments'
+      - name: Check out benchmark tests repo
+        uses: actions/checkout@v4
+        with:
+            path: 'assignments/finalhw/benchmarks'
+      - name: Run benchmarks
+        working-directory: 'assignments/finalhw/benchmarks'
+        run: chmod -R 1777 ../ && su - cs1260_user -c "cd $(pwd) && eval \$(opam env) && python3 bench.py"
+    

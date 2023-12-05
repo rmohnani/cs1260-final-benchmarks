@@ -1,0 +1,5 @@
+(define (f x y) (+ x y))
+(define (g x) (+ x 3))
+(let ((x (+ read-num (+ 2 (+ 2 + read-num)))))
+  (let ((y (+ (- 3 (+ read-num read-num)) (- 4 (+ 5 (+ read-num (+ 5 2)))))))
+    (f y (g x))))

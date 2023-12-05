@@ -1,3 +1,3 @@
-(define (f x) (if ((+ x 1) = 3) 1 0))
+(define (f x) (if (= (+ x 1) 3) 1 0))
 
-(let ((y read-num)) (f y))
+(let ((y (read-num))) (f y))

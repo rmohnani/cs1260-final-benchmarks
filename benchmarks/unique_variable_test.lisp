@@ -4,4 +4,4 @@
 (define (i x y) (- (+ x y) (- (- x (+ y x)) (+ x y))))
 (define (j xx y) (- y (+ xx (+ xx (- xx (+ y xx))))))
 
-print((+ (f 1 2) (- (g 2 1) (h (i 3 2) (j 421 21) 4))))
+(print (+ (f 1 2) (- (g 2 1) (h (i 3 2) (j 421 21) 4))))

@@ -65,7 +65,7 @@ def bench(config: "dict[str, list[str]]"):
         results[example] = {}
 
         input_path = os.path.join("benchmarks", input_file(example))
-        stdin = open(input_path).read() if os.path.exists(input_path) else ""
+        stdin = open(input_path, "rb").read() if os.path.exists(input_path) else ""
 
         captured_stderr = None
         captured_stdout = None

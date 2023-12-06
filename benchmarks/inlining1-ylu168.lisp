@@ -1,0 +1,8 @@
+(define (add-two a) (+ a 2))
+(define (calculate-sum)
+  (let ((a 5))
+    (let ((a (add-two a)))
+      (let ((a (add-two a)))
+        (let ((a (add-two a)))
+          (add-two a))))))
+(print (calculate-sum))

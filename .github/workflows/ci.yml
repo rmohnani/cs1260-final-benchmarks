@@ -17,15 +17,14 @@ jobs:
       - name: Check out assignments repo
         uses: actions/checkout@v4
         with:
-            repository: 'browncs1260/assignments'
+            repository: 'BrownCS1260-fall-2023/finalhw-stencil'
             submodules: recursive
-            path: 'assignments'
-            token: ${{ secrets.ACCESS_TOKEN_2023 }}
+            path: 'hw'
       - name: Check out benchmark tests repo
         uses: actions/checkout@v4
         with:
-            path: 'assignments/finalhw/benchmarks'
+            path: 'hw/benchmarks'
       - name: Run benchmarks
-        working-directory: 'assignments/finalhw/benchmarks'
+        working-directory: 'hw/benchmarks'
         run: chmod -R 1777 ../ && su - cs1260_user -c "cd $(pwd) && eval \$(opam env) && python3 bench.py"
     

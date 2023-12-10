@@ -1,0 +1,11 @@
+(define (f x) (+ x 3))
+(define (g x) (+ (add1 (f 3)) (f x)))
+(define (h x) (- (+ (g 2) (f x)) (g 5)))
+(define (k x) (h (g (f x))))
+(define (l x) (let ((y 3))
+                    (+ (k y) (k x))))
+
+(print (let ((a 1))
+    (if (= a 1)
+        (l a)
+        (l (g (h a))))))

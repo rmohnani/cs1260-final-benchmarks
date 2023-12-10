@@ -1,0 +1,5 @@
+(define (a x) (+ x 4))
+(define (b x) (- (a x) 2))
+(define (c x) (+ (b x) 3))
+(define (d x) (- (c x) (a x)))
+(print (+ (d (read-num)) (d (read-num))))

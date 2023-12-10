@@ -1,0 +1,15 @@
+(define (f x) (if true 
+                  (if (= 0 0)
+                      (add1 (sub1 (add1 x)))
+                      (let ((y 3))
+                           (let ((z 4)) (+ z y)))
+                  )
+                  (let ((y 3))
+                           (let ((z 4)) (+ z y)))))
+(define (g y) (- (+ (f 3) (f 3)) (let ((y 4)) (add1 y))))
+(define (h z) (if (= z 0) 0 (+ z (h (- z 1)))))
+
+(let ((x 1))
+    (let ((y 2))
+        (let ((z 3))
+            (- (+ (f z) (g x)) (h y)))))

@@ -1,0 +1,1 @@
+(define (rec n) (if (= n 0) 0 (+ 1 (rec (- n 1))))) (print (rec 100000))

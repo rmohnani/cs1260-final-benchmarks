@@ -8,7 +8,7 @@
         "uniquify-variables",
         "inline",
         "propagate-constants"
-    ]
+    ],
     "All optimizations": [
         "uniquify-variables",
         "inline",

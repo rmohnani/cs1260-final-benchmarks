@@ -1,0 +1,15 @@
+(define (double n)
+    (+ n n)
+)
+
+(define (constant-prop-readnum n)
+  (if (= n 0) 
+  	(read-num)
+  	(if (< n 10000)
+		(+ (double n) (constant-prop-readnum (- n 1)))
+		(+ (- n 10000) (constant-prop-readnum (- n 1)))
+	)
+  )
+)
+
+(print (constant-prop-readnum 100000))

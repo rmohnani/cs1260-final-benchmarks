@@ -1,0 +1,5 @@
+(define (foo x) (sub1 x))
+(define (goo x) (add1 (foo x)))
+(define (noo x) (foo (goo (foo (goo (foo x))))))
+(define (poo x) (noo (noo (noo x))))
+(print (= (poo 36) (noo 30)))

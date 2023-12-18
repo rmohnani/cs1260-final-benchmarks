@@ -121,6 +121,7 @@ def main():
         sys.exit(1)
     results = bench(config)
     writer = csv.writer(args.output)
+    writer.writerow(("program-name", "optimization-name", "execution-time"))
     for example in sorted(results.keys()):
         config_times = results[example]
         for config_name in sorted(config_times.keys()):

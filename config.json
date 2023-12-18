@@ -1,15 +1,30 @@
 {
-    "No optimizations": [],
-    "Inlining": [
+    "No optimizations (0)": [],
+    "Constant Propagation (1)": [
+        "propagate-constants"
+    ],
+    "Inlining (2)": [
         "uniquify-variables",
         "inline"
     ],
-    "Constant propagation and inlining": [
+    "Peephole (3)": [
+        "peephole"
+    ],
+    "Constant Propagation and inlining (4)": [
         "uniquify-variables",
         "inline",
         "propagate-constants"
     ],
-    "All optimizations": [
+    "Constant Propagation and Peephole (5)": [
+        "propagate-constants",
+        "peephole"
+    ],
+    "Inlining and Peephole (6)": [
+        "uniquify-variables",
+        "inline",
+        "peephole"
+    ],
+    "CP and Inlining and Peephole (7)": [
         "uniquify-variables",
         "inline",
         "propagate-constants",

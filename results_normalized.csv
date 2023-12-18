@@ -1,0 +1,1521 @@
+program-name,optimization-name,execution-time,normalized-execution-time
+a-few-prim2-operations.lisp,CP and Inlining and Peephole (7),668872.5999993039,0.9288893505703736
+a-few-prim2-operations.lisp,Constant Propagation (1),682000.1000050979,0.9471200195423232
+a-few-prim2-operations.lisp,Constant Propagation and Peephole (5),674860.1000253984,0.9372044243389579
+a-few-prim2-operations.lisp,Constant Propagation and inlining (4),668147.3000753613,0.9278820984040858
+a-few-prim2-operations.lisp,Inlining (2),677710.0999897812,0.9411623299491501
+a-few-prim2-operations.lisp,Inlining and Peephole (6),840268.8999922248,1.1669140473373736
+a-few-prim2-operations.lisp,No optimizations (0),720077.7999969432,1.0
+a-few-prim2-operations.lisp,Peephole (3),684615.6000392511,0.9507522659942542
+add1-n-times.lisp,CP and Inlining and Peephole (7),4019789.7999860286,0.9536278481358132
+add1-n-times.lisp,Constant Propagation (1),4094753.000026685,0.9714116126362342
+add1-n-times.lisp,Constant Propagation and Peephole (5),4177341.499962495,0.9910043519070351
+add1-n-times.lisp,Constant Propagation and inlining (4),4160720.4999309033,0.9870612978463359
+add1-n-times.lisp,Inlining (2),4888913.29996477,1.1598128514043609
+add1-n-times.lisp,Inlining and Peephole (6),4781496.600026002,1.1343300372490501
+add1-n-times.lisp,No optimizations (0),4215260.50004104,1.0
+add1-n-times.lisp,Peephole (3),3767066.500040528,0.8936734752226705
+add_1_sub_1_test.lisp,CP and Inlining and Peephole (7),693342.899921845,0.9606325732842288
+add_1_sub_1_test.lisp,Constant Propagation (1),699615.6999775849,0.9693235919128499
+add_1_sub_1_test.lisp,Constant Propagation and Peephole (5),699754.8999606806,0.969516454691105
+add_1_sub_1_test.lisp,Constant Propagation and inlining (4),699745.5000600894,0.9695034310476891
+add_1_sub_1_test.lisp,Inlining (2),687193.7999676447,0.9521129422141607
+add_1_sub_1_test.lisp,Inlining and Peephole (6),701167.1000327624,0.9714730700821171
+add_1_sub_1_test.lisp,No optimizations (0),721756.5999781073,1.0
+add_1_sub_1_test.lisp,Peephole (3),701995.4000497819,0.9726206869061886
+add_constant_basic_1.lisp,CP and Inlining and Peephole (7),698203.2999985677,0.9446801848806188
+add_constant_basic_1.lisp,Constant Propagation (1),702490.5999969633,0.9504809700604243
+add_constant_basic_1.lisp,Constant Propagation and Peephole (5),694900.0999156851,0.9402109025598369
+add_constant_basic_1.lisp,Constant Propagation and inlining (4),689200.4999826895,0.9324992530754261
+add_constant_basic_1.lisp,Inlining (2),694831.9999537489,0.9401187622267384
+add_constant_basic_1.lisp,Inlining and Peephole (6),701969.5999588293,0.9497760487110865
+add_constant_basic_1.lisp,No optimizations (0),739089.6000288194,1.0
+add_constant_basic_1.lisp,Peephole (3),693325.9000106773,0.938080985016759
+add_constants.lisp,CP and Inlining and Peephole (7),971676.3999676912,1.0958465538500386
+add_constants.lisp,Constant Propagation (1),703539.9999949732,0.7934451063294146
+add_constants.lisp,Constant Propagation and Peephole (5),957291.4999807834,1.0796234130197637
+add_constants.lisp,Constant Propagation and inlining (4),1007107.3999824876,1.1358052677459058
+add_constants.lisp,Inlining (2),714555.8000047458,0.8058686111907161
+add_constants.lisp,Inlining and Peephole (6),973372.600037692,1.0977595106753895
+add_constants.lisp,No optimizations (0),886690.1999681431,1.0
+add_constants.lisp,Peephole (3),832096.3999722153,0.9384296792748028
+adding_lots_of_constants.lisp,CP and Inlining and Peephole (7),716564.7999499924,0.9841990250522947
+adding_lots_of_constants.lisp,Constant Propagation (1),685092.900039308,0.9409724903260555
+adding_lots_of_constants.lisp,Constant Propagation and Peephole (5),915494.6999842651,1.2574284855018525
+adding_lots_of_constants.lisp,Constant Propagation and inlining (4),841255.1999754214,1.155460814840144
+adding_lots_of_constants.lisp,Inlining (2),703074.699958961,0.9656704240660927
+adding_lots_of_constants.lisp,Inlining and Peephole (6),697519.0000048315,0.95803969132745
+adding_lots_of_constants.lisp,No optimizations (0),728068.9999788592,1.0
+adding_lots_of_constants.lisp,Peephole (3),682270.6000093604,0.9370960719783032
+assoc-const-prop.lisp,CP and Inlining and Peephole (7),714581.2000089791,0.9082506690416281
+assoc-const-prop.lisp,Constant Propagation (1),703119.9000266497,0.8936830686388935
+assoc-const-prop.lisp,Constant Propagation and Peephole (5),711619.400044583,0.9044861468303016
+assoc-const-prop.lisp,Constant Propagation and inlining (4),709671.7000422359,0.9020105711641605
+assoc-const-prop.lisp,Inlining (2),712423.4999537293,0.9055081780290642
+assoc-const-prop.lisp,Inlining and Peephole (6),706736.2000270805,0.8982794768494722
+assoc-const-prop.lisp,No optimizations (0),786766.5000048873,1.0
+assoc-const-prop.lisp,Peephole (3),706423.6000587698,0.8978821544313104
+assoc-prop.lisp,CP and Inlining and Peephole (7),710685.6000063999,0.9548115240722216
+assoc-prop.lisp,Constant Propagation (1),705903.6999635282,0.9483870048926374
+assoc-prop.lisp,Constant Propagation and Peephole (5),782874.2000128841,1.0517974587699424
+assoc-prop.lisp,Constant Propagation and inlining (4),709453.2999872172,0.9531559195975854
+assoc-prop.lisp,Inlining (2),718722.3000073573,0.9656088918201486
+assoc-prop.lisp,Inlining and Peephole (6),834303.200008435,1.1208927125176191
+assoc-prop.lisp,No optimizations (0),744320.2999638743,1.0
+assoc-prop.lisp,Peephole (3),712221.4000446547,0.9568748831373033
+associativity_constant_folding.lisp,CP and Inlining and Peephole (7),771467.5999523024,0.7548767674059597
+associativity_constant_folding.lisp,Constant Propagation (1),1068276.8999686232,1.045303021141306
+associativity_constant_folding.lisp,Constant Propagation and Peephole (5),1093785.2000097337,1.0702627512430565
+associativity_constant_folding.lisp,Constant Propagation and inlining (4),1842074.900014268,1.8024600721124258
+associativity_constant_folding.lisp,Inlining (2),1184243.9000247396,1.1587760874548363
+associativity_constant_folding.lisp,Inlining and Peephole (6),1483826.7000413907,1.4519161955565607
+associativity_constant_folding.lisp,No optimizations (0),1021978.1999694534,1.0
+associativity_constant_folding.lisp,Peephole (3),1158913.6000111466,1.1339905293926877
+b1_for_add.lisp,CP and Inlining and Peephole (7),695957.9000067606,0.942878943474792
+b1_for_add.lisp,Constant Propagation (1),698412.4000155134,0.9462042830894284
+b1_for_add.lisp,Constant Propagation and Peephole (5),692596.8000359717,0.9383253485097232
+b1_for_add.lisp,Constant Propagation and inlining (4),709962.8999640117,0.9618528204333395
+b1_for_add.lisp,Inlining (2),718583.3000221464,0.9735316787365
+b1_for_add.lisp,Inlining and Peephole (6),688208.6000587151,0.9323802455684798
+b1_for_add.lisp,No optimizations (0),738120.0999589055,1.0
+b1_for_add.lisp,Peephole (3),759208.3999952592,1.0285702828544132
+b2_big_if.lisp,CP and Inlining and Peephole (7),682613.2999776746,0.9576471742746714
+b2_big_if.lisp,Constant Propagation (1),689220.8999488503,0.9669170631580856
+b2_big_if.lisp,Constant Propagation and Peephole (5),673372.700020991,0.944683415090064
+b2_big_if.lisp,Constant Propagation and inlining (4),685670.9000203409,0.9619367215791514
+b2_big_if.lisp,Inlining (2),680632.2000556975,0.9548678631444909
+b2_big_if.lisp,Inlining and Peephole (6),709522.7000718296,0.9953987255005805
+b2_big_if.lisp,No optimizations (0),712802.5000383786,1.0
+b2_big_if.lisp,Peephole (3),683045.3000475245,0.9582532328530666
+b3_inline_prim2Add.lisp,CP and Inlining and Peephole (7),708836.4999617625,0.973569792646972
+b3_inline_prim2Add.lisp,Constant Propagation (1),708096.6999637894,0.9725536952385206
+b3_inline_prim2Add.lisp,Constant Propagation and Peephole (5),736930.4999883752,1.0121562223553868
+b3_inline_prim2Add.lisp,Constant Propagation and inlining (4),687963.4999677364,0.9449012318756228
+b3_inline_prim2Add.lisp,Inlining (2),689184.8000122991,0.9465786579551331
+b3_inline_prim2Add.lisp,Inlining and Peephole (6),725357.6999573852,0.9962612613493952
+b3_inline_prim2Add.lisp,No optimizations (0),728079.8000465438,1.0
+b3_inline_prim2Add.lisp,Peephole (3),688775.3999762936,0.9460163569051941
+bench-prog1.lisp,CP and Inlining and Peephole (7),2873996.999915107,1.0236614935109074
+bench-prog1.lisp,Constant Propagation (1),2854837.899940321,1.0168373970017277
+bench-prog1.lisp,Constant Propagation and Peephole (5),2852033.5000393973,1.0158385246330137
+bench-prog1.lisp,Constant Propagation and inlining (4),2882068.799954141,1.026536510737273
+bench-prog1.lisp,Inlining (2),3032889.099995373,1.0802557503873251
+bench-prog1.lisp,Inlining and Peephole (6),2817584.500007797,1.003568464913624
+bench-prog1.lisp,No optimizations (0),2807565.799957956,1.0
+bench-prog1.lisp,Peephole (3),2783541.000007972,0.9914428363708007
+bench-prog2.lisp,CP and Inlining and Peephole (7),1651653.0999979295,1.260319295542962
+bench-prog2.lisp,Constant Propagation (1),2199100.799953157,1.6780576811367967
+bench-prog2.lisp,Constant Propagation and Peephole (5),1473505.500052852,1.1243810300163022
+bench-prog2.lisp,Constant Propagation and inlining (4),1919494.300000224,1.4646996418182765
+bench-prog2.lisp,Inlining (2),1889904.1000622676,1.4421203847449677
+bench-prog2.lisp,Inlining and Peephole (6),1885954.4000406456,1.4391065054086454
+bench-prog2.lisp,No optimizations (0),1310503.7000059383,1.0
+bench-prog2.lisp,Peephole (3),2656873.7000161493,2.0273683317369575
+bench-prog3.lisp,CP and Inlining and Peephole (7),921046.299936279,1.0990452508277901
+bench-prog3.lisp,Constant Propagation (1),811666.6000205441,0.9685271218936922
+bench-prog3.lisp,Constant Propagation and Peephole (5),833458.9000696724,0.9945309437159671
+bench-prog3.lisp,Constant Propagation and inlining (4),818514.6999494464,0.976698667346483
+bench-prog3.lisp,Inlining (2),801633.1999897375,0.9565546937385859
+bench-prog3.lisp,Inlining and Peephole (6),886451.4999913808,1.0577647521325473
+bench-prog3.lisp,No optimizations (0),838042.2000300314,1.0
+bench-prog3.lisp,Peephole (3),816013.9999745297,0.9737146887654199
+bench1mke2.lisp,CP and Inlining and Peephole (7),693864.4999536336,0.9689237315460951
+bench1mke2.lisp,Constant Propagation (1),682791.8999988469,0.9534617719461645
+bench1mke2.lisp,Constant Propagation and Peephole (5),674514.3999978609,0.9419029356180859
+bench1mke2.lisp,Constant Propagation and inlining (4),683303.5000454402,0.954176178615244
+bench1mke2.lisp,Inlining (2),685099.6000139276,0.9566842819752125
+bench1mke2.lisp,Inlining and Peephole (6),674135.2000062761,0.9413734145503946
+bench1mke2.lisp,No optimizations (0),716118.8000281982,1.0
+bench1mke2.lisp,Peephole (3),767624.0999899164,1.071922842913341
+bench2mke2.lisp,CP and Inlining and Peephole (7),719412.8999799432,0.9954848362134169
+bench2mke2.lisp,Constant Propagation (1),709695.4000189726,0.9820382829790776
+bench2mke2.lisp,Constant Propagation and Peephole (5),1114101.700022729,1.5416339467962503
+bench2mke2.lisp,Constant Propagation and inlining (4),700313.2999670925,0.9690558380802662
+bench2mke2.lisp,Inlining (2),722418.499935884,0.9996438236043106
+bench2mke2.lisp,Inlining and Peephole (6),937329.2999953264,1.2970258174546196
+bench2mke2.lisp,No optimizations (0),722675.9000332095,1.0
+bench2mke2.lisp,Peephole (3),695293.0999432283,0.9621091555858956
+bench3mke2.lisp,CP and Inlining and Peephole (7),810701.2000436953,1.13189116447149
+bench3mke2.lisp,Constant Propagation (1),692610.9000232827,0.967014922527247
+bench3mke2.lisp,Constant Propagation and Peephole (5),815709.5000569825,1.1388836920929573
+bench3mke2.lisp,Constant Propagation and inlining (4),688589.9999360845,0.961400990684446
+bench3mke2.lisp,Inlining (2),681104.3999732647,0.9509496869757217
+bench3mke2.lisp,Inlining and Peephole (6),1009134.2999658082,1.4089410473733803
+bench3mke2.lisp,No optimizations (0),716235.9999711043,1.0
+bench3mke2.lisp,Peephole (3),676696.2000256171,0.9447950117739371
+benchmark-1.lisp,CP and Inlining and Peephole (7),690496.1999680381,0.8538441934015727
+benchmark-1.lisp,Constant Propagation (1),698845.7999796083,0.8641690257285789
+benchmark-1.lisp,Constant Propagation and Peephole (5),691771.3000802905,0.8554209389751223
+benchmark-1.lisp,Constant Propagation and inlining (4),704394.5000077656,0.8710303600852177
+benchmark-1.lisp,Inlining (2),722347.0999633719,0.893229936606081
+benchmark-1.lisp,Inlining and Peephole (6),700610.7999586675,0.866351564870059
+benchmark-1.lisp,No optimizations (0),808691.0999736574,1.0
+benchmark-1.lisp,Peephole (3),701929.6000180475,0.8679823483168201
+benchmark-2.lisp,CP and Inlining and Peephole (7),697021.8000788009,0.9421366424561982
+benchmark-2.lisp,Constant Propagation (1),682423.8000262994,0.9224051064346789
+benchmark-2.lisp,Constant Propagation and Peephole (5),678940.300076647,0.9176965981122838
+benchmark-2.lisp,Constant Propagation and inlining (4),673847.8999977815,0.9108134034807763
+benchmark-2.lisp,Inlining (2),701641.399973596,0.9483807718849783
+benchmark-2.lisp,Inlining and Peephole (6),689997.9999616335,0.9326428512162063
+benchmark-2.lisp,No optimizations (0),739830.8999654546,1.0
+benchmark-2.lisp,Peephole (3),684666.3999567681,0.9254363395591313
+benchmark-3.lisp,CP and Inlining and Peephole (7),686638.9999231615,0.9429061941917579
+benchmark-3.lisp,Constant Propagation (1),692690.699997911,0.9512165078886359
+benchmark-3.lisp,Constant Propagation and Peephole (5),714647.0000407135,0.9813673314133817
+benchmark-3.lisp,Constant Propagation and inlining (4),700736.3999946392,0.9622650215390003
+benchmark-3.lisp,Inlining (2),733068.2999963756,1.0066638232165008
+benchmark-3.lisp,Inlining and Peephole (6),694886.0999727913,0.9542312743602093
+benchmark-3.lisp,No optimizations (0),728215.5999746465,1.0
+benchmark-3.lisp,Peephole (3),697294.6000132652,0.9575386740376644
+benchmark-cse.lisp,CP and Inlining and Peephole (7),707330.2999742737,0.9502912686260705
+benchmark-cse.lisp,Constant Propagation (1),701015.4999989027,0.9418073972580076
+benchmark-cse.lisp,Constant Propagation and Peephole (5),704231.500003516,0.9461280614857334
+benchmark-cse.lisp,Constant Propagation and inlining (4),719577.2000159195,0.9667448578159237
+benchmark-cse.lisp,Inlining (2),701299.1000010516,0.9421884110585392
+benchmark-cse.lisp,Inlining and Peephole (6),726828.0000062077,0.9764862359550696
+benchmark-cse.lisp,No optimizations (0),744329.9999977171,1.0
+benchmark-cse.lisp,Peephole (3),718021.6000051587,0.9646549245729191
+benchmark-ex-1.lisp,CP and Inlining and Peephole (7),740513.5999761114,0.9702471733474369
+benchmark-ex-1.lisp,Constant Propagation (1),725728.7000356882,0.9508754732518775
+benchmark-ex-1.lisp,Constant Propagation and Peephole (5),706670.099953044,0.9259042197073898
+benchmark-ex-1.lisp,Constant Propagation and inlining (4),715079.4000153837,0.9369223827979513
+benchmark-ex-1.lisp,Inlining (2),720463.8000075647,0.9439772145697838
+benchmark-ex-1.lisp,Inlining and Peephole (6),707757.1000081662,0.9273284457188294
+benchmark-ex-1.lisp,No optimizations (0),763221.5999365144,1.0
+benchmark-ex-1.lisp,Peephole (3),714225.2000448934,0.9358031797112444
+benchmark-ex-2.lisp,CP and Inlining and Peephole (7),713770.7000765658,0.9264128311931144
+benchmark-ex-2.lisp,Constant Propagation (1),884809.4000313722,1.1484063176891621
+benchmark-ex-2.lisp,Constant Propagation and Peephole (5),699243.2999140874,0.9075575182572467
+benchmark-ex-2.lisp,Constant Propagation and inlining (4),719485.9999799519,0.9338307977250071
+benchmark-ex-2.lisp,Inlining (2),712471.9999410445,0.9247272303842129
+benchmark-ex-2.lisp,Inlining and Peephole (6),741653.4000185493,0.9626021718199993
+benchmark-ex-2.lisp,No optimizations (0),770467.1999817947,1.0
+benchmark-ex-2.lisp,Peephole (3),728412.7000275475,0.9454168847742761
+benchmark-ex-3.lisp,CP and Inlining and Peephole (7),687358.1000036211,0.9053932799762273
+benchmark-ex-3.lisp,Constant Propagation (1),696294.9999433476,0.9171650320647031
+benchmark-ex-3.lisp,Constant Propagation and Peephole (5),698289.100000693,0.9197916757188787
+benchmark-ex-3.lisp,Constant Propagation and inlining (4),721208.3000013081,0.9499810190362539
+benchmark-ex-3.lisp,Inlining (2),712981.9000510906,0.9391451428993691
+benchmark-ex-3.lisp,Inlining and Peephole (6),688734.5999530226,0.907206416104352
+benchmark-ex-3.lisp,No optimizations (0),759181.8000037165,1.0
+benchmark-ex-3.lisp,Peephole (3),741383.5999614093,0.9765560764994367
+benchmark-fold.lisp,CP and Inlining and Peephole (7),693717.9000487959,0.9416285450511659
+benchmark-fold.lisp,Constant Propagation (1),691808.699957619,0.93903706326305
+benchmark-fold.lisp,Constant Propagation and Peephole (5),747628.4999938798,1.014804918019997
+benchmark-fold.lisp,Constant Propagation and inlining (4),702518.1000244629,0.9535736303641783
+benchmark-fold.lisp,Inlining (2),685130.9000012407,0.9299728499039527
+benchmark-fold.lisp,Inlining and Peephole (6),699881.499986077,0.9499948011918987
+benchmark-fold.lisp,No optimizations (0),736721.400062379,1.0
+benchmark-fold.lisp,Peephole (3),681309.9000282818,0.924786357462393
+benchmark-inline.lisp,CP and Inlining and Peephole (7),690304.5999933966,0.9318907549392037
+benchmark-inline.lisp,Constant Propagation (1),730266.800019308,0.9858385408174005
+benchmark-inline.lisp,Constant Propagation and Peephole (5),738219.9999483419,0.9965751250529984
+benchmark-inline.lisp,Constant Propagation and inlining (4),725407.0999806572,0.9792780897674732
+benchmark-inline.lisp,Inlining (2),699915.4999903112,0.9448651851456019
+benchmark-inline.lisp,Inlining and Peephole (6),723801.0999571998,0.9771100373246726
+benchmark-inline.lisp,No optimizations (0),740757.0000395935,1.0
+benchmark-inline.lisp,Peephole (3),702187.8000159631,0.9479327228476155
+benchmark_test1.lisp,CP and Inlining and Peephole (7),964208.1000492908,1.3453675417641493
+benchmark_test1.lisp,Constant Propagation (1),701366.5000158653,0.9786224819661158
+benchmark_test1.lisp,Constant Propagation and Peephole (5),806610.6000114814,1.1254704456878935
+benchmark_test1.lisp,Constant Propagation and inlining (4),677417.6000362786,0.9452063836240204
+benchmark_test1.lisp,Inlining (2),681091.4000197954,0.9503324671453106
+benchmark_test1.lisp,Inlining and Peephole (6),1530328.4000765416,2.1352798815915266
+benchmark_test1.lisp,No optimizations (0),716687.4999711581,1.0
+benchmark_test1.lisp,Peephole (3),693593.6999980186,0.9677770297736895
+benchmark_test2.lisp,CP and Inlining and Peephole (7),693160.9000275785,0.8352402837518261
+benchmark_test2.lisp,Constant Propagation (1),706704.4999530481,0.8515599582232517
+benchmark_test2.lisp,Constant Propagation and Peephole (5),679738.8999984832,0.8190671338924321
+benchmark_test2.lisp,Constant Propagation and inlining (4),677163.9999897161,0.8159644484785986
+benchmark_test2.lisp,Inlining (2),684929.5000392885,0.8253216676532832
+benchmark_test2.lisp,Inlining and Peephole (6),684952.599931421,0.8253495024034236
+benchmark_test2.lisp,No optimizations (0),829893.9999804134,1.0
+benchmark_test2.lisp,Peephole (3),682119.3000178027,0.8219354520383346
+benchmark_test3.lisp,CP and Inlining and Peephole (7),673003.3000167168,0.8849222738907865
+benchmark_test3.lisp,Constant Propagation (1),695376.1000659142,0.9143399440453724
+benchmark_test3.lisp,Constant Propagation and Peephole (5),683117.1999692742,0.8982208941853655
+benchmark_test3.lisp,Constant Propagation and inlining (4),690547.4000632239,0.9079907564764392
+benchmark_test3.lisp,Inlining (2),695810.9000152035,0.9149116561897306
+benchmark_test3.lisp,Inlining and Peephole (6),678670.8999243274,0.8923745187722326
+benchmark_test3.lisp,No optimizations (0),760522.4999679194,1.0
+benchmark_test3.lisp,Peephole (3),696609.3000301044,0.9159614607845119
+big-list-inline.lisp,CP and Inlining and Peephole (7),973481.9999721368,0.8847896261465092
+big-list-inline.lisp,Constant Propagation (1),1011874.6999978612,0.9196844292383878
+big-list-inline.lisp,Constant Propagation and Peephole (5),998031.8999623704,0.9071028243719667
+big-list-inline.lisp,Constant Propagation and inlining (4),984570.4999861482,0.8948678708209907
+big-list-inline.lisp,Inlining (2),1025493.799988908,0.9320627150103642
+big-list-inline.lisp,Inlining and Peephole (6),986822.39995469,0.8969146038179464
+big-list-inline.lisp,No optimizations (0),1100241.1999470496,1.0
+big-list-inline.lisp,Peephole (3),988873.5000458836,0.8987788314902898
+bm1_const_fold.lisp,CP and Inlining and Peephole (7),708680.0999786647,0.9627598331747607
+bm1_const_fold.lisp,Constant Propagation (1),680430.8999562636,0.9243825807279853
+bm1_const_fold.lisp,Constant Propagation and Peephole (5),708290.7999574672,0.9622309592534043
+bm1_const_fold.lisp,Constant Propagation and inlining (4),689102.7000165195,0.9361634403564526
+bm1_const_fold.lisp,Inlining (2),682362.0999966806,0.9270061648088631
+bm1_const_fold.lisp,Inlining and Peephole (6),677895.399985573,0.9209380399134905
+bm1_const_fold.lisp,No optimizations (0),736092.3000305775,1.0
+bm1_const_fold.lisp,Peephole (3),684150.800043426,0.929436159045552
+bm2_const_prop.lisp,CP and Inlining and Peephole (7),705054.1999888083,0.9820374777405587
+bm2_const_prop.lisp,Constant Propagation (1),710575.1000381133,0.9897272847927872
+bm2_const_prop.lisp,Constant Propagation and Peephole (5),1134886.7999913637,1.5807314822069904
+bm2_const_prop.lisp,Constant Propagation and inlining (4),800755.3999959782,1.1153352654472029
+bm2_const_prop.lisp,Inlining (2),713337.9000151763,0.993575461459233
+bm2_const_prop.lisp,Inlining and Peephole (6),690120.2999870293,0.9612367371864148
+bm2_const_prop.lisp,No optimizations (0),717950.4000305315,1.0
+bm2_const_prop.lisp,Peephole (3),690472.8999870713,0.9617278574643991
+bm3_inline.lisp,CP and Inlining and Peephole (7),761069.5000039414,1.056531929384462
+bm3_inline.lisp,Constant Propagation (1),692712.0000000286,0.9616366782061421
+bm3_inline.lisp,Constant Propagation and Peephole (5),700632.2000052023,0.9726316585496372
+bm3_inline.lisp,Constant Propagation and inlining (4),699837.1000008774,0.9715278847922882
+bm3_inline.lisp,Inlining (2),720387.0000012103,1.000055667729191
+bm3_inline.lisp,Inlining and Peephole (6),786542.800051393,1.091894474916485
+bm3_inline.lisp,No optimizations (0),720346.8999250617,1.0
+bm3_inline.lisp,Peephole (3),681483.1999690796,0.9460486330127538
+bmark1_constant_folding.lisp,CP and Inlining and Peephole (7),707218.0999784905,0.8999183324496143
+bmark1_constant_folding.lisp,Constant Propagation (1),727933.399957692,0.9262780625159737
+bmark1_constant_folding.lisp,Constant Propagation and Peephole (5),712460.9000129567,0.9065896716935153
+bmark1_constant_folding.lisp,Constant Propagation and inlining (4),734529.3999605929,0.9346713167661529
+bmark1_constant_folding.lisp,Inlining (2),704160.5000267737,0.8960276087111654
+bmark1_constant_folding.lisp,Inlining and Peephole (6),746952.2000064899,0.9504790364809038
+bmark1_constant_folding.lisp,No optimizations (0),785869.1999899747,1.0
+bmark1_constant_folding.lisp,Peephole (3),705297.6000522904,0.8974745416429194
+bmark2_inlining.lisp,CP and Inlining and Peephole (7),714283.4000660514,0.9835815319312582
+bmark2_inlining.lisp,Constant Propagation (1),686136.7999590584,0.9448231398850023
+bmark2_inlining.lisp,Constant Propagation and Peephole (5),875821.2999964599,1.2060222257284499
+bmark2_inlining.lisp,Constant Propagation and inlining (4),708643.6999998114,0.9758155600071281
+bmark2_inlining.lisp,Inlining (2),703122.4999991537,0.9682127648781308
+bmark2_inlining.lisp,Inlining and Peephole (6),954968.2999931974,1.3150091173422767
+bmark2_inlining.lisp,No optimizations (0),726206.5999384504,1.0
+bmark2_inlining.lisp,Peephole (3),754028.4000242536,1.0383111363738105
+bmark3_inlining_w_lets.lisp,CP and Inlining and Peephole (7),1016477.9000660928,0.8839402521818734
+bmark3_inlining_w_lets.lisp,Constant Propagation (1),1155461.1999599729,1.00480164341259
+bmark3_inlining_w_lets.lisp,Constant Propagation and Peephole (5),998880.0999963132,0.8686370135866066
+bmark3_inlining_w_lets.lisp,Constant Propagation and inlining (4),1015010.599985544,0.8826642720517176
+bmark3_inlining_w_lets.lisp,Inlining (2),1538369.4000774994,1.3377827844215446
+bmark3_inlining_w_lets.lisp,Inlining and Peephole (6),986682.3999800544,0.8580297608094339
+bmark3_inlining_w_lets.lisp,No optimizations (0),1149939.6000544948,1.0
+bmark3_inlining_w_lets.lisp,Peephole (3),1075448.8999737075,0.9352220759444607
+clashing-inline.lisp,CP and Inlining and Peephole (7),704242.5000690855,0.9476262870839356
+clashing-inline.lisp,Constant Propagation (1),691819.4000718358,0.9309098064351374
+clashing-inline.lisp,Constant Propagation and Peephole (5),692425.5999365414,0.9317255068891221
+clashing-inline.lisp,Constant Propagation and inlining (4),710486.8999704195,0.9560287301244904
+clashing-inline.lisp,Inlining (2),735980.7999819168,0.9903332343383292
+clashing-inline.lisp,Inlining and Peephole (6),683372.7000412182,0.9195439559115738
+clashing-inline.lisp,No optimizations (0),743164.799951046,1.0
+clashing-inline.lisp,Peephole (3),774224.1000414651,1.0417932874275868
+common-sub.lisp,CP and Inlining and Peephole (7),691612.1000358544,0.814008828081282
+common-sub.lisp,Constant Propagation (1),712194.3999663927,0.8382336411590267
+common-sub.lisp,Constant Propagation and Peephole (5),687874.6999973373,0.8096100088222401
+common-sub.lisp,Constant Propagation and inlining (4),691306.3999490987,0.8136490273066117
+common-sub.lisp,Inlining (2),684713.5000498383,0.8058893615627996
+common-sub.lisp,Inlining and Peephole (6),705185.30001209,0.8299841191518051
+common-sub.lisp,No optimizations (0),849637.0999637293,1.0
+common-sub.lisp,Peephole (3),744997.6000316383,0.8768421247888563
+common_subexp_after_constant_folding.lisp,CP and Inlining and Peephole (7),1051534.3999941251,1.367687015831228
+common_subexp_after_constant_folding.lisp,Constant Propagation (1),712140.3999917675,0.9262513699247873
+common_subexp_after_constant_folding.lisp,Constant Propagation and Peephole (5),1047208.19999784,1.3620601076075491
+common_subexp_after_constant_folding.lisp,Constant Propagation and inlining (4),911057.2999816212,1.1849743002892545
+common_subexp_after_constant_folding.lisp,Inlining (2),728499.1000233276,0.9475284499985991
+common_subexp_after_constant_folding.lisp,Inlining and Peephole (6),1051178.699981392,1.3672243716334262
+common_subexp_after_constant_folding.lisp,No optimizations (0),768841.3999858312,1.0
+common_subexp_after_constant_folding.lisp,Peephole (3),977665.6000212824,1.2716089430658906
+compress-let.lisp,CP and Inlining and Peephole (7),707774.2000547005,0.987074404487763
+compress-let.lisp,Constant Propagation (1),714272.4999539496,0.9961370483404753
+compress-let.lisp,Constant Propagation and Peephole (5),687263.8999993796,0.9584703776506637
+compress-let.lisp,Constant Propagation and inlining (4),685765.7999717048,0.9563811008833473
+compress-let.lisp,Inlining (2),693677.7999726473,0.9674153158754082
+compress-let.lisp,Inlining and Peephole (6),699537.7999373886,0.9755877753618493
+compress-let.lisp,No optimizations (0),717042.4000833009,1.0
+compress-let.lisp,Peephole (3),710924.0999852773,0.9914673105839866
+const-prop-list.lisp,CP and Inlining and Peephole (7),949690.4000116048,0.9165208682607772
+const-prop-list.lisp,Constant Propagation (1),1126899.7000115633,1.0875408359237775
+const-prop-list.lisp,Constant Propagation and Peephole (5),977727.7000466712,0.943578918517485
+const-prop-list.lisp,Constant Propagation and inlining (4),953963.3999338548,0.9206446264863747
+const-prop-list.lisp,Inlining (2),996221.5000086871,0.9614267914647328
+const-prop-list.lisp,Inlining and Peephole (6),993349.1999618128,0.958654811319588
+const-prop-list.lisp,No optimizations (0),1036190.6999605708,1.0
+const-prop-list.lisp,Peephole (3),1035683.5000493448,0.9995105148972624
+const-prop.lisp,CP and Inlining and Peephole (7),686982.4000204972,0.9266276861190457
+const-prop.lisp,Constant Propagation (1),694616.6000489029,0.9369249821014181
+const-prop.lisp,Constant Propagation and Peephole (5),719983.9000350039,0.971141349927591
+const-prop.lisp,Constant Propagation and inlining (4),687544.4999423053,0.9273858676239827
+const-prop.lisp,Inlining (2),683887.2999651358,0.9224528988136927
+const-prop.lisp,Inlining and Peephole (6),686599.7000204516,0.9261114859725653
+const-prop.lisp,No optimizations (0),741379.1000544734,1.0
+const-prop.lisp,Peephole (3),693900.3000297816,0.935958809708551
+constant-fold-readnum.lisp,CP and Inlining and Peephole (7),720958.7000033935,0.9733355581747708
+constant-fold-readnum.lisp,Constant Propagation (1),716382.1999711217,0.9671570208835542
+constant-fold-readnum.lisp,Constant Propagation and Peephole (5),721275.1000224671,0.9737627163312229
+constant-fold-readnum.lisp,Constant Propagation and inlining (4),709521.5000845201,0.957894682897254
+constant-fold-readnum.lisp,Inlining (2),704028.0999717652,0.9504782779561659
+constant-fold-readnum.lisp,Inlining and Peephole (6),716608.5999415372,0.9674626738170358
+constant-fold-readnum.lisp,No optimizations (0),740709.3000438181,1.0
+constant-fold-readnum.lisp,Peephole (3),742230.4000101576,1.0020535721183055
+constant-folding-1.lisp,CP and Inlining and Peephole (7),698080.1000281645,0.9511795658015316
+constant-folding-1.lisp,Constant Propagation (1),697347.6999519335,0.9501816230346855
+constant-folding-1.lisp,Constant Propagation and Peephole (5),731065.300078626,0.9961240474743495
+constant-folding-1.lisp,Constant Propagation and inlining (4),703312.8999864857,0.9583095962838237
+constant-folding-1.lisp,Inlining (2),693039.699945075,0.9443116926702024
+constant-folding-1.lisp,Inlining and Peephole (6),693173.8999810477,0.9444945489526576
+constant-folding-1.lisp,No optimizations (0),733909.9000091664,1.0
+constant-folding-1.lisp,Peephole (3),702341.09998637,0.9569854555410655
+constant-folding-associative.lisp,CP and Inlining and Peephole (7),716575.6000176771,0.9688907338680073
+constant-folding-associative.lisp,Constant Propagation (1),692141.6999830399,0.9358533553482348
+constant-folding-associative.lisp,Constant Propagation and Peephole (5),729127.9999662947,0.9858629891300075
+constant-folding-associative.lisp,Constant Propagation and inlining (4),695932.8000448295,0.9409793486432112
+constant-folding-associative.lisp,Inlining (2),692877.3000254296,0.936847969265994
+constant-folding-associative.lisp,Inlining and Peephole (6),717798.9000410889,0.9705447729636659
+constant-folding-associative.lisp,No optimizations (0),739583.4999442741,1.0
+constant-folding-associative.lisp,Peephole (3),737076.0999947379,0.9966097135080418
+constant-folding-conditional.lisp,CP and Inlining and Peephole (7),747682.8999642748,1.023616272397182
+constant-folding-conditional.lisp,Constant Propagation (1),679748.8999836787,0.9306111390278209
+constant-folding-conditional.lisp,Constant Propagation and Peephole (5),682924.800003093,0.9349591091894152
+constant-folding-conditional.lisp,Constant Propagation and inlining (4),679994.1000281251,0.9309468304760269
+constant-folding-conditional.lisp,Inlining (2),676755.2000383148,0.9265126101208532
+constant-folding-conditional.lisp,Inlining and Peephole (6),693739.3000043812,0.9497647148541789
+constant-folding-conditional.lisp,No optimizations (0),730432.7999918314,1.0
+constant-folding-conditional.lisp,Peephole (3),681627.0999479457,0.9331824911964092
+constant-folding-if.lisp,CP and Inlining and Peephole (7),697432.6000090514,0.9680075549612246
+constant-folding-if.lisp,Constant Propagation (1),686908.1999866467,0.9534001237442301
+constant-folding-if.lisp,Constant Propagation and Peephole (5),689766.1999573756,0.9573669092998648
+constant-folding-if.lisp,Constant Propagation and inlining (4),684838.6999990907,0.9505277434985687
+constant-folding-if.lisp,Inlining (2),706984.4000398007,0.9812650576835295
+constant-folding-if.lisp,Inlining and Peephole (6),728692.2000275808,1.0113945847367325
+constant-folding-if.lisp,No optimizations (0),720482.5999906461,1.0
+constant-folding-if.lisp,Peephole (3),700930.4000348493,0.9728623564870954
+constant-folding-let.lisp,CP and Inlining and Peephole (7),693973.4000297904,0.875091090473806
+constant-folding-let.lisp,Constant Propagation (1),687206.4999697614,0.8665581208349065
+constant-folding-let.lisp,Constant Propagation and Peephole (5),688832.8000059118,0.8686088632293721
+constant-folding-let.lisp,Constant Propagation and inlining (4),682487.999984005,0.8606081560412142
+constant-folding-let.lisp,Inlining (2),692292.300027475,0.8729712460616735
+constant-folding-let.lisp,Inlining and Peephole (6),700896.3000771473,0.8838207739911031
+constant-folding-let.lisp,No optimizations (0),793029.9000690866,1.0
+constant-folding-let.lisp,Peephole (3),685186.8000012473,0.8640113064356788
+constant-folding-mf.lisp,CP and Inlining and Peephole (7),723768.7000269943,0.6645808625462861
+constant-folding-mf.lisp,Constant Propagation (1),1070716.899994295,0.9831565815357235
+constant-folding-mf.lisp,Constant Propagation and Peephole (5),719051.4999820152,0.6602494223022155
+constant-folding-mf.lisp,Constant Propagation and inlining (4),722050.3999633365,0.6630030803924344
+constant-folding-mf.lisp,Inlining (2),1111698.200020328,1.0207865422103881
+constant-folding-mf.lisp,Inlining and Peephole (6),714361.5000131831,0.6559429577859796
+constant-folding-mf.lisp,No optimizations (0),1089060.4000451276,1.0
+constant-folding-mf.lisp,Peephole (3),968539.8999863536,0.8893353389272257
+constant-folding-recursive.lisp,CP and Inlining and Peephole (7),700331.6000009363,0.9547957405115629
+constant-folding-recursive.lisp,Constant Propagation (1),682680.2999967185,0.9307308745844846
+constant-folding-recursive.lisp,Constant Propagation and Peephole (5),708323.1999786221,0.9656910729777212
+constant-folding-recursive.lisp,Constant Propagation and inlining (4),764668.299962068,1.0425090567197375
+constant-folding-recursive.lisp,Inlining (2),689606.299965817,0.9401734233274937
+constant-folding-recursive.lisp,Inlining and Peephole (6),693354.9999303068,0.9452842062174074
+constant-folding-recursive.lisp,No optimizations (0),733488.399964699,1.0
+constant-folding-recursive.lisp,Peephole (3),699748.1999860611,0.9540003632228379
+constant-folding-recursive2.lisp,CP and Inlining and Peephole (7),689864.9999129702,0.9736646961079917
+constant-folding-recursive2.lisp,Constant Propagation (1),680848.8999922702,0.9609395133686511
+constant-folding-recursive2.lisp,Constant Propagation and Peephole (5),690695.2999997884,0.9748365686943851
+constant-folding-recursive2.lisp,Constant Propagation and inlining (4),690286.3000505022,0.9742593125480663
+constant-folding-recursive2.lisp,Inlining (2),718150.4999607569,1.0135864095037506
+constant-folding-recursive2.lisp,Inlining and Peephole (6),694242.6000023261,0.9798431725653024
+constant-folding-recursive2.lisp,No optimizations (0),708524.2000357539,1.0
+constant-folding-recursive2.lisp,Peephole (3),720001.2999419414,1.0161985997170009
+constant-folding-with-inlining-mf.lisp,CP and Inlining and Peephole (7),702359.4000202138,0.957380214313504
+constant-folding-with-inlining-mf.lisp,Constant Propagation (1),681764.5999944943,0.9293076149266379
+constant-folding-with-inlining-mf.lisp,Constant Propagation and Peephole (5),761966.2000251992,1.038629744058066
+constant-folding-with-inlining-mf.lisp,Constant Propagation and inlining (4),697477.2999456036,0.9507254646004714
+constant-folding-with-inlining-mf.lisp,Inlining (2),696379.9000004656,0.9492296079284689
+constant-folding-with-inlining-mf.lisp,Inlining and Peephole (6),688627.1000439592,0.9386618312550505
+constant-folding-with-inlining-mf.lisp,No optimizations (0),733626.3999604853,1.0
+constant-folding-with-inlining-mf.lisp,Peephole (3),715604.8000069859,0.9754349080751864
+constant-folding.lisp,CP and Inlining and Peephole (7),699791.2999395339,0.9754368890302929
+constant-folding.lisp,Constant Propagation (1),683880.5999905162,0.953259014481259
+constant-folding.lisp,Constant Propagation and Peephole (5),686304.0999633085,0.9566371234606502
+constant-folding.lisp,Constant Propagation and inlining (4),694754.2000489193,0.9684156913568429
+constant-folding.lisp,Inlining (2),736195.1999882876,1.0261801706561067
+constant-folding.lisp,Inlining and Peephole (6),741589.1999698943,1.0336988502423525
+constant-folding.lisp,No optimizations (0),717413.1999818201,1.0
+constant-folding.lisp,Peephole (3),691708.2000654773,0.9641698815731378
+constant-folding2.lisp,CP and Inlining and Peephole (7),697278.9000428747,1.0199575738682845
+constant-folding2.lisp,Constant Propagation (1),671630.4999827116,0.9824399035395843
+constant-folding2.lisp,Constant Propagation and Peephole (5),689607.6000884932,1.0087362383461487
+constant-folding2.lisp,Constant Propagation and inlining (4),656999.1000105802,0.9610375533222552
+constant-folding2.lisp,Inlining (2),654315.8000567928,0.9571125068155308
+constant-folding2.lisp,Inlining and Peephole (6),670426.6000269854,0.9806788766707846
+constant-folding2.lisp,No optimizations (0),683635.2000391344,1.0
+constant-folding2.lisp,Peephole (3),666475.0999334501,0.9748987470149256
+constant-prop-all.lisp,CP and Inlining and Peephole (7),688959.0999890061,0.9230098444687158
+constant-prop-all.lisp,Constant Propagation (1),690302.5000610796,0.9248096196536341
+constant-prop-all.lisp,Constant Propagation and Peephole (5),699749.5000177878,0.9374659209651
+constant-prop-all.lisp,Constant Propagation and inlining (4),699698.9000072062,0.9373981312981985
+constant-prop-all.lisp,Inlining (2),695572.3999453767,0.9318697912554728
+constant-prop-all.lisp,Inlining and Peephole (6),698955.4000028875,0.9364020521066184
+constant-prop-all.lisp,No optimizations (0),746426.6000170028,1.0
+constant-prop-all.lisp,Peephole (3),769247.800053563,1.030573937257917
+constant-prop-conditional.lisp,CP and Inlining and Peephole (7),704560.8999760589,0.941805841163983
+constant-prop-conditional.lisp,Constant Propagation (1),698269.5000260719,0.933395954634376
+constant-prop-conditional.lisp,Constant Propagation and Peephole (5),695767.7000173135,0.9300517300801141
+constant-prop-conditional.lisp,Constant Propagation and inlining (4),726271.9999744149,0.9708276628365197
+constant-prop-conditional.lisp,Inlining (2),719218.5000349127,0.961399056389726
+constant-prop-conditional.lisp,Inlining and Peephole (6),689799.7000123723,0.9220741411095776
+constant-prop-conditional.lisp,No optimizations (0),748095.699964324,1.0
+constant-prop-conditional.lisp,Peephole (3),710539.0000106127,0.9497969311205741
+constant-prop-db-1.lisp,CP and Inlining and Peephole (7),708715.2000167407,0.9660771999644772
+constant-prop-db-1.lisp,Constant Propagation (1),687270.9000163013,0.936845642211612
+constant-prop-db-1.lisp,Constant Propagation and Peephole (5),687233.8999528438,0.936795205988849
+constant-prop-db-1.lisp,Constant Propagation and inlining (4),695229.500070127,0.9476943188809643
+constant-prop-db-1.lisp,Inlining (2),712614.5000256656,0.9713924871692029
+constant-prop-db-1.lisp,Inlining and Peephole (6),696946.9999603461,0.9500355096510269
+constant-prop-db-1.lisp,No optimizations (0),733601.0000472015,1.0
+constant-prop-db-1.lisp,Peephole (3),719421.9000666635,0.9806719184139256
+constant-prop-db-2.lisp,CP and Inlining and Peephole (7),698232.4000091467,0.9730371677737023
+constant-prop-db-2.lisp,Constant Propagation (1),687084.8999824375,0.9575023231380133
+constant-prop-db-2.lisp,Constant Propagation and Peephole (5),699393.8999585225,0.9746558016570558
+constant-prop-db-2.lisp,Constant Propagation and inlining (4),688941.0000439966,0.960088932334293
+constant-prop-db-2.lisp,Inlining (2),746100.3000571509,1.0397445361074757
+constant-prop-db-2.lisp,Inlining and Peephole (6),687509.9999888334,0.958094730631906
+constant-prop-db-2.lisp,No optimizations (0),717580.399941653,1.0
+constant-prop-db-2.lisp,Peephole (3),691933.6000464682,0.9642593361004981
+constant-prop-db-3.lisp,CP and Inlining and Peephole (7),705919.6999762207,0.9302241950350895
+constant-prop-db-3.lisp,Constant Propagation (1),688877.1999911114,0.9077664766422355
+constant-prop-db-3.lisp,Constant Propagation and Peephole (5),704194.7999823606,0.9279512117080075
+constant-prop-db-3.lisp,Constant Propagation and inlining (4),707803.8999679848,0.9327070955982595
+constant-prop-db-3.lisp,Inlining (2),688076.4999550593,0.9067113558593388
+constant-prop-db-3.lisp,Inlining and Peephole (6),694184.9000213551,0.9147606871569549
+constant-prop-db-3.lisp,No optimizations (0),758870.499976183,1.0
+constant-prop-db-3.lisp,Peephole (3),713205.2999622829,0.939824779042889
+constant-prop-let-if-1.lisp,CP and Inlining and Peephole (7),710410.6999577198,0.9579092596505079
+constant-prop-let-if-1.lisp,Constant Propagation (1),702741.7999779573,0.9475686069796159
+constant-prop-let-if-1.lisp,Constant Propagation and Peephole (5),692241.5000190085,0.9334101285665184
+constant-prop-let-if-1.lisp,Constant Propagation and inlining (4),692184.0999893902,0.9333327310556435
+constant-prop-let-if-1.lisp,Inlining (2),697589.1999900341,0.9406209030106294
+constant-prop-let-if-1.lisp,Inlining and Peephole (6),699588.6000368046,0.9433168700317639
+constant-prop-let-if-1.lisp,No optimizations (0),741626.2999868195,1.0
+constant-prop-let-if-1.lisp,Peephole (3),703019.2999991414,0.9479427846769131
+constant-prop-readnum-tji6.lisp,CP and Inlining and Peephole (7),4961263.699988195,0.9920696833010815
+constant-prop-readnum-tji6.lisp,Constant Propagation (1),6442679.400061024,1.2882981632369492
+constant-prop-readnum-tji6.lisp,Constant Propagation and Peephole (5),4932770.100003837,0.9863720146380235
+constant-prop-readnum-tji6.lisp,Constant Propagation and inlining (4),4927209.099969332,0.9852600198164054
+constant-prop-readnum-tji6.lisp,Inlining (2),4925486.200045271,0.9849155034017616
+constant-prop-readnum-tji6.lisp,Inlining and Peephole (6),5184783.19991118,1.0367653360438978
+constant-prop-readnum-tji6.lisp,No optimizations (0),5000922.599992918,1.0
+constant-prop-readnum-tji6.lisp,Peephole (3),5407545.399975789,1.0813095567572766
+constant-prop-tji6.lisp,CP and Inlining and Peephole (7),4869582.3000343805,0.9866853125048349
+constant-prop-tji6.lisp,Constant Propagation (1),4913937.599940254,0.9956726794394822
+constant-prop-tji6.lisp,Constant Propagation and Peephole (5),4937763.799989625,1.000500395697887
+constant-prop-tji6.lisp,Constant Propagation and inlining (4),4876428.100033081,0.98807242332767
+constant-prop-tji6.lisp,Inlining (2),4966750.80003115,1.006373804428313
+constant-prop-tji6.lisp,Inlining and Peephole (6),6555106.900032115,1.3282099575799597
+constant-prop-tji6.lisp,No optimizations (0),4935294.200004136,1.0
+constant-prop-tji6.lisp,Peephole (3),4745108.699989942,0.9614642020704591
+constant-prop.lisp,CP and Inlining and Peephole (7),692539.8000021232,0.9288978607428118
+constant-prop.lisp,Constant Propagation (1),704974.6000120649,0.9455765543398643
+constant-prop.lisp,Constant Propagation and Peephole (5),703132.2000329965,0.9431053586061549
+constant-prop.lisp,Constant Propagation and inlining (4),705660.8999846503,0.9464970827721082
+constant-prop.lisp,Inlining (2),697325.7000026933,0.9353171485183951
+constant-prop.lisp,Inlining and Peephole (6),699883.4000114584,0.9387477702192079
+constant-prop.lisp,No optimizations (0),745549.9999196036,1.0
+constant-prop.lisp,Peephole (3),713421.999989805,0.9569069815126242
+constant-propagation1-ylu168.lisp,CP and Inlining and Peephole (7),4453487.49999539,0.9866273349731435
+constant-propagation1-ylu168.lisp,Constant Propagation (1),4510643.400044501,0.9992896750703154
+constant-propagation1-ylu168.lisp,Constant Propagation and Peephole (5),4532532.999928663,1.0041391054543372
+constant-propagation1-ylu168.lisp,Constant Propagation and inlining (4),4367905.19997885,0.9676673992853755
+constant-propagation1-ylu168.lisp,Inlining (2),4528266.499983147,1.0031939034141582
+constant-propagation1-ylu168.lisp,Inlining and Peephole (6),4617900.499943062,1.0230514542669507
+constant-propagation1-ylu168.lisp,No optimizations (0),4513849.700015271,1.0
+constant-propagation1-ylu168.lisp,Peephole (3),4441415.600012988,0.9839529216043595
+constant-propagation2-ylu168.lisp,CP and Inlining and Peephole (7),4607741.60001165,0.9703513860880858
+constant-propagation2-ylu168.lisp,Constant Propagation (1),4577285.800041864,0.9639376523589572
+constant-propagation2-ylu168.lisp,Constant Propagation and Peephole (5),10479656.100051217,2.206926886348282
+constant-propagation2-ylu168.lisp,Constant Propagation and inlining (4),6883475.299946439,1.4496016439787427
+constant-propagation2-ylu168.lisp,Inlining (2),4745084.699970903,0.9992746806180479
+constant-propagation2-ylu168.lisp,Inlining and Peephole (6),4759439.80000011,1.0022977431983668
+constant-propagation2-ylu168.lisp,No optimizations (0),4748528.900017845,1.0
+constant-propagation2-ylu168.lisp,Peephole (3),5211725.79992708,1.097545347130033
+constant_folding_and_inlining.lisp,CP and Inlining and Peephole (7),715090.500034421,0.9640413593406342
+constant_folding_and_inlining.lisp,Constant Propagation (1),714582.7999920584,0.9633569091361455
+constant_folding_and_inlining.lisp,Constant Propagation and Peephole (5),692738.1999958016,0.9339073529280428
+constant_folding_and_inlining.lisp,Constant Propagation and inlining (4),690309.600031469,0.9306332627103753
+constant_folding_and_inlining.lisp,Inlining (2),732597.4000195856,0.9876430931893236
+constant_folding_and_inlining.lisp,Inlining and Peephole (6),737375.4000582267,0.9940845011676975
+constant_folding_and_inlining.lisp,No optimizations (0),741763.2999931811,1.0
+constant_folding_and_inlining.lisp,Peephole (3),688079.7000121675,0.9276270476289307
+constant_nest_expr_2.lisp,CP and Inlining and Peephole (7),850284.3000314897,1.1337160279389031
+constant_nest_expr_2.lisp,Constant Propagation (1),760260.9999594279,1.0136845770749154
+constant_nest_expr_2.lisp,Constant Propagation and Peephole (5),731898.8999941212,0.9758683227756385
+constant_nest_expr_2.lisp,Constant Propagation and inlining (4),714798.5999836237,0.9530678498000151
+constant_nest_expr_2.lisp,Inlining (2),713039.9999368819,0.9507230422342969
+constant_nest_expr_2.lisp,Inlining and Peephole (6),710242.8000507643,0.946993430451364
+constant_nest_expr_2.lisp,No optimizations (0),749997.5999962771,1.0
+constant_nest_expr_2.lisp,Peephole (3),710587.4000444601,0.9474528985799252
+constant_prop1.lisp,CP and Inlining and Peephole (7),715769.0999520128,0.9845920781811714
+constant_prop1.lisp,Constant Propagation (1),714456.6000533814,0.9827866398032188
+constant_prop1.lisp,Constant Propagation and Peephole (5),696532.10002798,0.9581301958025604
+constant_prop1.lisp,Constant Propagation and inlining (4),737639.6000836394,1.0146765302438596
+constant_prop1.lisp,Inlining (2),701139.4999608456,0.964468007081667
+constant_prop1.lisp,Inlining and Peephole (6),704150.7000394631,0.968610130209676
+constant_prop1.lisp,No optimizations (0),726970.1999575773,1.0
+constant_prop1.lisp,Peephole (3),697001.0999793885,0.9587753390992676
+constant_prop2.lisp,CP and Inlining and Peephole (7),676502.7999790618,0.9265483702685392
+constant_prop2.lisp,Constant Propagation (1),682801.6000326897,0.935175301191097
+constant_prop2.lisp,Constant Propagation and Peephole (5),682137.3000093445,0.934265465926529
+constant_prop2.lisp,Constant Propagation and inlining (4),682873.6999523244,0.9352740503212352
+constant_prop2.lisp,Inlining (2),678504.6000004513,0.9292900655689568
+constant_prop2.lisp,Inlining and Peephole (6),674043.9999703085,0.9231807609386189
+constant_prop2.lisp,No optimizations (0),730132.1999875654,1.0
+constant_prop2.lisp,Peephole (3),695404.1999961191,0.9524360109141362
+constant_propagation_test.lisp,CP and Inlining and Peephole (7),2909439.0999489403,0.9523918810041079
+constant_propagation_test.lisp,Constant Propagation (1),4809432.700039906,1.5743462909514268
+constant_propagation_test.lisp,Constant Propagation and Peephole (5),2637374.599999021,0.8633327833703773
+constant_propagation_test.lisp,Constant Propagation and inlining (4),3966661.8000410376,1.298469004941373
+constant_propagation_test.lisp,Inlining (2),4340113.10007918,1.4207166182744713
+constant_propagation_test.lisp,Inlining and Peephole (6),2823246.7999259825,0.9241772169651267
+constant_propagation_test.lisp,No optimizations (0),3054876.000078366,1.0
+constant_propagation_test.lisp,Peephole (3),3374874.200017075,1.1047499800091722
+constantpropcjeong22-1.lisp,CP and Inlining and Peephole (7),708774.6999786759,0.946834190601921
+constantpropcjeong22-1.lisp,Constant Propagation (1),693376.4000677911,0.9262639913083981
+constantpropcjeong22-1.lisp,Constant Propagation and Peephole (5),699312.6999986998,0.9341941442052514
+constantpropcjeong22-1.lisp,Constant Propagation and inlining (4),729541.5000044159,0.9745760333826452
+constantpropcjeong22-1.lisp,Inlining (2),797216.9999447942,1.0649820216488126
+constantpropcjeong22-1.lisp,Inlining and Peephole (6),696326.7999708478,0.9302053558975216
+constantpropcjeong22-1.lisp,No optimizations (0),748573.2000532153,1.0
+constantpropcjeong22-1.lisp,Peephole (3),1093226.1999187176,1.4604132232372216
+constantpropinliningcjeong22-1.lisp,CP and Inlining and Peephole (7),715775.0999795098,0.977339490410535
+constantpropinliningcjeong22-1.lisp,Constant Propagation (1),693747.0000593748,0.9472617020783154
+constantpropinliningcjeong22-1.lisp,Constant Propagation and Peephole (5),700564.9999882735,0.9565711912968138
+constantpropinliningcjeong22-1.lisp,Constant Propagation and inlining (4),691360.6000125583,0.9440032442111191
+constantpropinliningcjeong22-1.lisp,Inlining (2),697633.2000704133,0.9525680290775788
+constantpropinliningcjeong22-1.lisp,Inlining and Peephole (6),689305.8000059682,0.9411975623825758
+constantpropinliningcjeong22-1.lisp,No optimizations (0),732371.0000491701,1.0
+constantpropinliningcjeong22-1.lisp,Peephole (3),687962.8000206139,0.9393637923599177
+constantpropinliningcjeong22-2.lisp,CP and Inlining and Peephole (7),688069.700026972,0.9142461529579535
+constantpropinliningcjeong22-2.lisp,Constant Propagation (1),674370.9000147646,0.8960443992536267
+constantpropinliningcjeong22-2.lisp,Constant Propagation and Peephole (5),682669.0000707458,0.9070701805847093
+constantpropinliningcjeong22-2.lisp,Constant Propagation and inlining (4),672308.699995483,0.8933043302836021
+constantpropinliningcjeong22-2.lisp,Inlining (2),696417.6999645133,0.9253382368376698
+constantpropinliningcjeong22-2.lisp,Inlining and Peephole (6),673990.1999935682,0.8955385587409633
+constantpropinliningcjeong22-2.lisp,No optimizations (0),752608.7999394804,1.0
+constantpropinliningcjeong22-2.lisp,Peephole (3),685774.3999717059,0.911196361279394
+cp-1.lisp,CP and Inlining and Peephole (7),654852.4000209,0.9175407337041478
+cp-1.lisp,Constant Propagation (1),659875.8000109228,0.9245792268247165
+cp-1.lisp,Constant Propagation and Peephole (5),721226.8999865046,1.0105407859231563
+cp-1.lisp,Constant Propagation and inlining (4),686194.9000267487,0.961456004459162
+cp-1.lisp,Inlining (2),661884.5999582845,0.9273938393656621
+cp-1.lisp,Inlining and Peephole (6),682227.8000072401,0.9558975368373569
+cp-1.lisp,No optimizations (0),713703.8999644574,1.0
+cp-1.lisp,Peephole (3),770736.8999945174,1.0799112909890227
+cp1.lisp,CP and Inlining and Peephole (7),741906.7999762774,0.9952744015243877
+cp1.lisp,Constant Propagation (1),719336.6999672435,0.9649964167700289
+cp1.lisp,Constant Propagation and Peephole (5),703410.4000013031,0.9436311473485787
+cp1.lisp,Constant Propagation and inlining (4),707545.8000144863,0.9491788223035952
+cp1.lisp,Inlining (2),717475.9999543312,0.9625002715779012
+cp1.lisp,Inlining and Peephole (6),699196.8999500386,0.937978700515662
+cp1.lisp,No optimizations (0),745429.4000126538,1.0
+cp1.lisp,Peephole (3),695062.3999728123,0.9324322329666813
+cp_inline.lisp,CP and Inlining and Peephole (7),697268.3000640245,0.8278037651765352
+cp_inline.lisp,Constant Propagation (1),716150.1000155113,0.8502204232860686
+cp_inline.lisp,Constant Propagation and Peephole (5),693867.9000086267,0.8237667768770437
+cp_inline.lisp,Constant Propagation and inlining (4),740716.6999655601,0.8793861317147593
+cp_inline.lisp,Inlining (2),712313.600070047,0.8456656929194891
+cp_inline.lisp,Inlining and Peephole (6),696779.9999983981,0.8272240505490032
+cp_inline.lisp,No optimizations (0),842311.1000411154,1.0
+cp_inline.lisp,Peephole (3),705012.3999761126,0.8369976365522183
+cp_let_vexp.lisp,CP and Inlining and Peephole (7),675154.3000063975,0.9702496045922463
+cp_let_vexp.lisp,Constant Propagation (1),673402.7999300451,0.9677325618117915
+cp_let_vexp.lisp,Constant Propagation and Peephole (5),661666.1999942153,0.9508661485387242
+cp_let_vexp.lisp,Constant Propagation and inlining (4),646684.200000891,0.9293358412158113
+cp_let_vexp.lisp,Inlining (2),667336.7000075814,0.959015101149641
+cp_let_vexp.lisp,Inlining and Peephole (6),696975.4000238026,1.0016082342617227
+cp_let_vexp.lisp,No optimizations (0),695856.3000807771,1.0
+cp_let_vexp.lisp,Peephole (3),661654.2000301706,0.950848903650601
+cp_sum_many_1.lisp,CP and Inlining and Peephole (7),875987.8999626379,1.2746173330933015
+cp_sum_many_1.lisp,Constant Propagation (1),648447.5000434031,0.9435317807376029
+cp_sum_many_1.lisp,Constant Propagation and Peephole (5),636555.3000250657,0.926227883877119
+cp_sum_many_1.lisp,Constant Propagation and inlining (4),645545.4000388272,0.9393090432222099
+cp_sum_many_1.lisp,Inlining (2),660454.7999813803,0.9610031551997943
+cp_sum_many_1.lisp,Inlining and Peephole (6),658907.7000171528,0.9587520277235854
+cp_sum_many_1.lisp,No optimizations (0),687255.5999507313,1.0
+cp_sum_many_1.lisp,Peephole (3),651502.1999803139,0.9479765607250338
+cse-hierarchy.lisp,CP and Inlining and Peephole (7),773496.5000054217,0.9886195128000501
+cse-hierarchy.lisp,Constant Propagation (1),729845.4000192578,0.9328282723727113
+cse-hierarchy.lisp,Constant Propagation and Peephole (5),719293.6999672384,0.9193419585179405
+cse-hierarchy.lisp,Constant Propagation and inlining (4),721497.399990767,0.922158546367534
+cse-hierarchy.lisp,Inlining (2),769624.1999838094,0.9836702578767826
+cse-hierarchy.lisp,Inlining and Peephole (6),781398.7999725214,0.9987195816994171
+cse-hierarchy.lisp,No optimizations (0),782400.600019173,1.0
+cse-hierarchy.lisp,Peephole (3),715184.3000428926,0.9140896620291021
+cse-list.lisp,CP and Inlining and Peephole (7),1658342.500013532,1.5197104129827335
+cse-list.lisp,Constant Propagation (1),1033805.2999941282,0.9473825095750699
+cse-list.lisp,Constant Propagation and Peephole (5),1395871.2999738054,1.279180959142413
+cse-list.lisp,Constant Propagation and inlining (4),1035904.299988033,0.9493060399359946
+cse-list.lisp,Inlining (2),1000079.4000006862,0.916475986099473
+cse-list.lisp,Inlining and Peephole (6),1645241.5000458132,1.5077046143788466
+cse-list.lisp,No optimizations (0),1091222.699960781,1.0
+cse-list.lisp,Peephole (3),1047977.7000000468,0.960370142627817
+cse.lisp,CP and Inlining and Peephole (7),679873.9000259957,0.7972694320261736
+cse.lisp,Constant Propagation (1),690646.6000145883,0.8099022811485848
+cse.lisp,Constant Propagation and Peephole (5),693718.899947271,0.8135050828184978
+cse.lisp,Constant Propagation and inlining (4),708011.5999997361,0.8302657392468642
+cse.lisp,Inlining (2),689208.4999890358,0.8082158607836828
+cse.lisp,Inlining and Peephole (6),689268.7000799924,0.8082864557753763
+cse.lisp,No optimizations (0),852753.0000719707,1.0
+cse.lisp,Peephole (3),719304.7000328079,0.843508847195026
+dead.lisp,CP and Inlining and Peephole (7),1036853.9999944916,1.4237010536049155
+dead.lisp,Constant Propagation (1),906831.1999726576,1.2451671448918955
+dead.lisp,Constant Propagation and Peephole (5),1025424.6999465976,1.408007516693991
+dead.lisp,Constant Propagation and inlining (4),1011452.6000506884,1.3888224690952116
+dead.lisp,Inlining (2),887967.2999682951,1.2192651815378925
+dead.lisp,Inlining and Peephole (6),904695.4999575972,1.2422346217385474
+dead.lisp,No optimizations (0),728280.7000592584,1.0
+dead.lisp,Peephole (3),934421.9000013254,1.283051850646727
+deeply-nested-balanced.lisp,CP and Inlining and Peephole (7),752395.3999225341,0.9322981834963906
+deeply-nested-balanced.lisp,Constant Propagation (1),763598.6000423145,0.9461801438620351
+deeply-nested-balanced.lisp,Constant Propagation and Peephole (5),749479.9999221868,0.9286856918134684
+deeply-nested-balanced.lisp,Constant Propagation and inlining (4),784700.0000765547,0.9723270300912416
+deeply-nested-balanced.lisp,Inlining (2),760824.799999682,0.9427431096358891
+deeply-nested-balanced.lisp,Inlining and Peephole (6),766976.5999708034,0.9503658462168146
+deeply-nested-balanced.lisp,No optimizations (0),807033.0000009562,1.0
+deeply-nested-balanced.lisp,Peephole (3),751422.5999329938,0.9310927805084841
+deeply-nested-interspersed.lisp,CP and Inlining and Peephole (7),767110.8000067761,0.9608387624205343
+deeply-nested-interspersed.lisp,Constant Propagation (1),765852.6999875903,0.9592629388688062
+deeply-nested-interspersed.lisp,Constant Propagation and Peephole (5),763829.0000613779,0.956728169012098
+deeply-nested-interspersed.lisp,Constant Propagation and inlining (4),800899.599926197,1.0031606651990699
+deeply-nested-interspersed.lisp,Inlining (2),758393.6000628455,0.9499201003370066
+deeply-nested-interspersed.lisp,Inlining and Peephole (6),751085.2999985218,0.9407661450164184
+deeply-nested-interspersed.lisp,No optimizations (0),798376.2000549177,1.0
+deeply-nested-interspersed.lisp,Peephole (3),760113.7999699858,0.9520747235672858
+deeply-nested-left-heavy.lisp,CP and Inlining and Peephole (7),756419.5999293588,0.9571364796460476
+deeply-nested-left-heavy.lisp,Constant Propagation (1),752897.0999373996,0.9526792799090604
+deeply-nested-left-heavy.lisp,Constant Propagation and Peephole (5),753843.3999798144,0.9538766818422869
+deeply-nested-left-heavy.lisp,Constant Propagation and inlining (4),765140.1999282825,0.9681711016787801
+deeply-nested-left-heavy.lisp,Inlining (2),788944.5999353484,0.9982920287739758
+deeply-nested-left-heavy.lisp,Inlining and Peephole (6),760901.0000123817,0.9628070248034584
+deeply-nested-left-heavy.lisp,No optimizations (0),790294.4000306888,1.0
+deeply-nested-left-heavy.lisp,Peephole (3),766255.2000510914,0.9695819684681253
+deeply-nested-right-heavy.lisp,CP and Inlining and Peephole (7),765462.5000213855,0.715069613699452
+deeply-nested-right-heavy.lisp,Constant Propagation (1),827232.3000710458,0.7727729068830749
+deeply-nested-right-heavy.lisp,Constant Propagation and Peephole (5),924119.2999979832,0.8632815204445731
+deeply-nested-right-heavy.lisp,Constant Propagation and inlining (4),762642.7999639418,0.7124355436688911
+deeply-nested-right-heavy.lisp,Inlining (2),760296.8000355759,0.7102439885470285
+deeply-nested-right-heavy.lisp,Inlining and Peephole (6),824303.5000305099,0.7700369192761961
+deeply-nested-right-heavy.lisp,No optimizations (0),1070472.6999392733,1.0
+deeply-nested-right-heavy.lisp,Peephole (3),762672.8999639454,0.7124636620879832
+e_b1.lisp,CP and Inlining and Peephole (7),690041.1000060558,0.9413378206425204
+e_b1.lisp,Constant Propagation (1),701060.5999312247,0.9563703629708511
+e_b1.lisp,Constant Propagation and Peephole (5),724221.9000545447,0.9879664632337805
+e_b1.lisp,Constant Propagation and inlining (4),722724.2999761074,0.9859234724698711
+e_b1.lisp,Inlining (2),698454.7999309143,0.9528155919676443
+e_b1.lisp,Inlining and Peephole (6),685528.8999759068,0.935182383607471
+e_b1.lisp,No optimizations (0),733042.9999456101,1.0
+e_b1.lisp,Peephole (3),689283.7000123109,0.940304593405099
+e_b2.lisp,CP and Inlining and Peephole (7),704840.7000183943,0.9624962226011707
+e_b2.lisp,Constant Propagation (1),693212.7000254695,0.9466175906360977
+e_b2.lisp,Constant Propagation and Peephole (5),695885.0000046368,0.9502667536817883
+e_b2.lisp,Constant Propagation and inlining (4),703013.0000202917,0.9600004042635293
+e_b2.lisp,Inlining (2),683914.5999947505,0.9339205568854909
+e_b2.lisp,Inlining and Peephole (6),711615.3999959351,0.971747423812266
+e_b2.lisp,No optimizations (0),732304.8999751336,1.0
+e_b2.lisp,Peephole (3),697404.0999921272,0.9523411628350548
+e_b3.lisp,CP and Inlining and Peephole (7),705459.900018468,0.9612314872280321
+e_b3.lisp,Constant Propagation (1),681635.1000452414,0.9287687662277662
+e_b3.lisp,Constant Propagation and Peephole (5),687436.1999507528,0.9366731132921239
+e_b3.lisp,Constant Propagation and inlining (4),686148.8000140525,0.9349189535506854
+e_b3.lisp,Inlining (2),738597.3999589623,1.0063833213010762
+e_b3.lisp,Inlining and Peephole (6),687361.2000163121,0.9365709213765769
+e_b3.lisp,No optimizations (0),733912.6000260876,1.0
+e_b3.lisp,Peephole (3),694271.90001079,0.9459871652102873
+even-prop.lisp,CP and Inlining and Peephole (7),21017670.00003747,0.8641253398621249
+even-prop.lisp,Constant Propagation (1),21253848.49996408,0.8738356372698226
+even-prop.lisp,Constant Propagation and Peephole (5),15457637.199961027,0.6355288668467025
+even-prop.lisp,Constant Propagation and inlining (4),16855630.800000653,0.6930062986817805
+even-prop.lisp,Inlining (2),20837116.500024423,0.856702021551304
+even-prop.lisp,Inlining and Peephole (6),21215308.29999756,0.8722510865848816
+even-prop.lisp,No optimizations (0),24322478.49992564,1.0
+even-prop.lisp,Peephole (3),15250774.700052718,0.6270238742363096
+f_let_fold.lisp,CP and Inlining and Peephole (7),919915.8999763314,1.2441582106785758
+f_let_fold.lisp,Constant Propagation (1),715029.3999984569,0.9670554655132547
+f_let_fold.lisp,Constant Propagation and Peephole (5),1059543.399969698,1.4330001478140677
+f_let_fold.lisp,Constant Propagation and inlining (4),921146.1999257152,1.2458221538538843
+f_let_fold.lisp,Inlining (2),918317.9000501696,1.2419969644941702
+f_let_fold.lisp,Inlining and Peephole (6),995097.099985287,1.3458384917588537
+f_let_fold.lisp,No optimizations (0),739388.2000542362,1.0
+f_let_fold.lisp,Peephole (3),885668.9999447555,1.1978403224176273
+fib_1.lisp,CP and Inlining and Peephole (7),698180.9000535577,0.9539184138682719
+fib_1.lisp,Constant Propagation (1),710230.5000444176,0.970381676197772
+fib_1.lisp,Constant Propagation and Peephole (5),691148.1999850366,0.9443096977116708
+fib_1.lisp,Constant Propagation and inlining (4),701472.4000327988,0.9584155612969745
+fib_1.lisp,Inlining (2),694579.5999854454,0.9489979893069959
+fib_1.lisp,Inlining and Peephole (6),696157.5000786979,0.9511538603055903
+fib_1.lisp,No optimizations (0),731908.4000300791,1.0
+fib_1.lisp,Peephole (3),683199.2999650538,0.9334491856316672
+finite_sum.lisp,CP and Inlining and Peephole (7),695578.4000638232,0.9457142356287958
+finite_sum.lisp,Constant Propagation (1),704814.9000183912,0.9582722585542031
+finite_sum.lisp,Constant Propagation and Peephole (5),688879.9000080326,0.9366068986851237
+finite_sum.lisp,Constant Propagation and inlining (4),689225.6000355701,0.9370769153464656
+finite_sum.lisp,Inlining (2),721487.8000013414,0.9809408734244238
+finite_sum.lisp,Inlining and Peephole (6),720806.6999737639,0.9800148441056467
+finite_sum.lisp,No optimizations (0),735505.9000474284,1.0
+finite_sum.lisp,Peephole (3),697856.3999837206,0.94881142345523
+fold-with-variable.lisp,CP and Inlining and Peephole (7),689257.6999234734,0.9312638360439646
+fold-with-variable.lisp,Constant Propagation (1),695915.0000511727,0.9402585891752034
+fold-with-variable.lisp,Constant Propagation and Peephole (5),694600.2999939083,0.9384822831307281
+fold-with-variable.lisp,Constant Propagation and inlining (4),698819.4000768999,0.9441827567393312
+fold-with-variable.lisp,Inlining (2),707379.6999975457,0.955748674309309
+fold-with-variable.lisp,Inlining and Peephole (6),708665.7999934687,0.9574863384890089
+fold-with-variable.lisp,No optimizations (0),740131.5000606701,1.0
+fold-with-variable.lisp,Peephole (3),688483.5000164458,0.9302178058358676
+fold_constant_1.lisp,CP and Inlining and Peephole (7),688550.9999847272,0.9584263096227802
+fold_constant_1.lisp,Constant Propagation (1),674526.8000486249,0.9389053704469329
+fold_constant_1.lisp,Constant Propagation and Peephole (5),702941.2000520097,0.9784567014826785
+fold_constant_1.lisp,Constant Propagation and inlining (4),671207.8999953519,0.9342856383862203
+fold_constant_1.lisp,Inlining (2),691312.3999765958,0.962270031298673
+fold_constant_1.lisp,Inlining and Peephole (6),684301.2999524944,0.9525109535794558
+fold_constant_1.lisp,No optimizations (0),718418.2999480981,1.0
+fold_constant_1.lisp,Peephole (3),688361.3000354671,0.9581622573996201
+folding-reduces-to-subexpression.lisp,CP and Inlining and Peephole (7),687325.7000734156,0.9664642554588248
+folding-reduces-to-subexpression.lisp,Constant Propagation (1),705086.0999697761,0.9914375565599672
+folding-reduces-to-subexpression.lisp,Constant Propagation and Peephole (5),684016.9000497553,0.961811676701785
+folding-reduces-to-subexpression.lisp,Constant Propagation and inlining (4),726311.0000167217,1.021282369897906
+folding-reduces-to-subexpression.lisp,Inlining (2),681682.400045247,0.9585290832988543
+folding-reduces-to-subexpression.lisp,Inlining and Peephole (6),671203.9999911212,0.9437951673320446
+folding-reduces-to-subexpression.lisp,No optimizations (0),711175.4999641562,1.0
+folding-reduces-to-subexpression.lisp,Peephole (3),677793.5000172874,0.9530608127690686
+foldtreeadd.lisp,CP and Inlining and Peephole (7),684394.6000117285,0.9416292571194773
+foldtreeadd.lisp,Constant Propagation (1),700708.6999692547,0.9640751294617124
+foldtreeadd.lisp,Constant Propagation and Peephole (5),676406.7000403884,0.9306390472086616
+foldtreeadd.lisp,Constant Propagation and inlining (4),745074.8000337626,1.0251165489064524
+foldtreeadd.lisp,Inlining (2),677781.2000109407,0.9325301629278092
+foldtreeadd.lisp,Inlining and Peephole (6),693038.9999979525,0.9535227173208469
+foldtreeadd.lisp,No optimizations (0),726819.6000040916,1.0
+foldtreeadd.lisp,Peephole (3),689079.2999911355,0.9480747354463973
+function.lisp,CP and Inlining and Peephole (7),689021.4000122796,0.9679741170711161
+function.lisp,Constant Propagation (1),732748.799964611,1.029404707412605
+function.lisp,Constant Propagation and Peephole (5),696180.5999708304,0.9780317441037311
+function.lisp,Constant Propagation and inlining (4),687463.2999824826,0.9657852148096995
+function.lisp,Inlining (2),678586.6999962309,0.9533148923579842
+function.lisp,Inlining and Peephole (6),695626.2000130664,0.9772528933893537
+function.lisp,No optimizations (0),711817.9999451968,1.0
+function.lisp,Peephole (3),689738.9000187104,0.9689820994577458
+function_fold.lisp,CP and Inlining and Peephole (7),691439.700040064,0.9411187999905469
+function_fold.lisp,Constant Propagation (1),684509.8000667349,0.9316865108891601
+function_fold.lisp,Constant Propagation and Peephole (5),687676.0000523063,0.9359960267164672
+function_fold.lisp,Constant Propagation and inlining (4),739062.4999970896,1.0059382084583408
+function_fold.lisp,Inlining (2),679525.5000724865,0.9249023785503485
+function_fold.lisp,Inlining and Peephole (6),690195.0999235851,0.9394247743683257
+function_fold.lisp,No optimizations (0),734699.7000240663,1.0
+function_fold.lisp,Peephole (3),815199.2999955837,1.1095680316309924
+identity.lisp,CP and Inlining and Peephole (7),688896.1999720777,0.8821158193396884
+identity.lisp,Constant Propagation (1),689335.7999615546,0.8826787170663921
+identity.lisp,Constant Propagation and Peephole (5),703149.6000308834,0.9003669719396874
+identity.lisp,Constant Propagation and inlining (4),726605.9999892605,0.9304023553093181
+identity.lisp,Inlining (2),689051.5000122832,0.8823146774872801
+identity.lisp,Inlining and Peephole (6),682531.8000664993,0.8739663509037436
+identity.lisp,No optimizations (0),780958.9000316919,1.0
+identity.lisp,Peephole (3),694020.5999853788,0.8886774962897727
+if-cprop.lisp,CP and Inlining and Peephole (7),705400.7000078855,0.9108610843327247
+if-cprop.lisp,Constant Propagation (1),707040.7999890449,0.9129788923349514
+if-cprop.lisp,Constant Propagation and Peephole (5),683360.6000327563,0.8824014168530592
+if-cprop.lisp,Constant Propagation and inlining (4),694650.7000066049,0.8969799573964548
+if-cprop.lisp,Inlining (2),743027.6000377489,0.9594474820509257
+if-cprop.lisp,Inlining and Peephole (6),826311.5999397996,1.0669894145405028
+if-cprop.lisp,No optimizations (0),774432.800062641,1.0
+if-cprop.lisp,Peephole (3),699109.4000113662,0.9027373323480331
+if-fold.lisp,CP and Inlining and Peephole (7),679124.700036482,0.9459931523028835
+if-fold.lisp,Constant Propagation (1),699732.3999712535,0.9746988421739178
+if-fold.lisp,Constant Propagation and Peephole (5),736319.4000390649,1.0256630487851566
+if-fold.lisp,Constant Propagation and inlining (4),712664.299953758,0.9927124541498302
+if-fold.lisp,Inlining (2),694109.69999808,0.9668666492470667
+if-fold.lisp,Inlining and Peephole (6),690179.600042029,0.9613921794684084
+if-fold.lisp,No optimizations (0),717895.999969187,1.0
+if-fold.lisp,Peephole (3),690325.4000462766,0.9615952729586268
+if-let-nesting.lisp,CP and Inlining and Peephole (7),685939.4000457542,0.9294076887918274
+if-let-nesting.lisp,Constant Propagation (1),685414.7999547422,0.9286968864117704
+if-let-nesting.lisp,Constant Propagation and Peephole (5),716519.7999711381,0.9708423385802564
+if-let-nesting.lisp,Constant Propagation and inlining (4),738982.1000288066,1.0012774387948724
+if-let-nesting.lisp,Inlining (2),702788.899980078,0.9522377737675751
+if-let-nesting.lisp,Inlining and Peephole (6),683631.1000370188,0.9262800775538467
+if-let-nesting.lisp,No optimizations (0),738039.2999948526,1.0
+if-let-nesting.lisp,Peephole (3),704882.7999824425,0.9550748855614581
+if-prop.lisp,CP and Inlining and Peephole (7),690207.4000208813,0.9448452822043018
+if-prop.lisp,Constant Propagation (1),716961.2999859964,0.9814694855406324
+if-prop.lisp,Constant Propagation and Peephole (5),682723.4999946086,0.934600350561873
+if-prop.lisp,Constant Propagation and inlining (4),693138.1999493169,0.9488573407324823
+if-prop.lisp,Inlining (2),702134.4000349927,0.9611725045636141
+if-prop.lisp,Inlining and Peephole (6),719768.7999905611,0.9853127551636779
+if-prop.lisp,No optimizations (0),730497.8000320261,1.0
+if-prop.lisp,Peephole (3),697276.6000217234,0.95452251874154
+if_else_heavy.lisp,CP and Inlining and Peephole (7),696086.399966589,0.9180211292535149
+if_else_heavy.lisp,Constant Propagation (1),693177.8999387461,0.9141853058842861
+if_else_heavy.lisp,Constant Propagation and Peephole (5),707929.1999616544,0.9336397947317017
+if_else_heavy.lisp,Constant Propagation and inlining (4),695876.000008866,0.9177436470231581
+if_else_heavy.lisp,Inlining (2),704954.6999951417,0.9297169285209073
+if_else_heavy.lisp,Inlining and Peephole (6),702547.4000329268,0.9265421039159867
+if_else_heavy.lisp,No optimizations (0),758246.599980339,1.0
+if_else_heavy.lisp,Peephole (3),687259.2000036093,0.9063795340743099
+if_prim_argument.lisp,CP and Inlining and Peephole (7),676848.799957952,0.9518199784060171
+if_prim_argument.lisp,Constant Propagation (1),690324.5999637875,0.9707703491111952
+if_prim_argument.lisp,Constant Propagation and Peephole (5),680566.4000239631,0.9570478609327685
+if_prim_argument.lisp,Constant Propagation and inlining (4),812851.9000820233,1.1430746099149847
+if_prim_argument.lisp,Inlining (2),681267.0999352122,0.9580332215841217
+if_prim_argument.lisp,Inlining and Peephole (6),674344.8000634089,0.948298723547176
+if_prim_argument.lisp,No optimizations (0),711110.0999281916,1.0
+if_prim_argument.lisp,Peephole (3),677890.4999919177,0.9532848711618237
+if_then_heavy.lisp,CP and Inlining and Peephole (7),725317.2000673658,0.9486863498235688
+if_then_heavy.lisp,Constant Propagation (1),687919.0999825369,0.899771106869841
+if_then_heavy.lisp,Constant Propagation and Peephole (5),713148.1999749667,0.932769776664145
+if_then_heavy.lisp,Constant Propagation and inlining (4),698794.7000197892,0.9139959636642527
+if_then_heavy.lisp,Inlining (2),698769.3000155559,0.913962741458438
+if_then_heavy.lisp,Inlining and Peephole (6),709330.7000104687,0.9277766369641146
+if_then_heavy.lisp,No optimizations (0),764548.9999958954,1.0
+if_then_heavy.lisp,Peephole (3),688443.0999889446,0.9004564782540303
+inline-and-subexpression.lisp,CP and Inlining and Peephole (7),712654.6000108647,0.9285936727748421
+inline-and-subexpression.lisp,Constant Propagation (1),690316.6000483907,0.8994871105955173
+inline-and-subexpression.lisp,Constant Propagation and Peephole (5),687327.6999613154,0.8955925539486199
+inline-and-subexpression.lisp,Constant Propagation and inlining (4),697217.8000069107,0.9084794199357474
+inline-and-subexpression.lisp,Inlining (2),687387.0999697829,0.8956699525538137
+inline-and-subexpression.lisp,Inlining and Peephole (6),690392.5000187883,0.8995860087605947
+inline-and-subexpression.lisp,No optimizations (0),767455.7999962417,1.0
+inline-and-subexpression.lisp,Peephole (3),693245.7999937469,0.9033038775616027
+inline-constant-prop-conditional.lisp,CP and Inlining and Peephole (7),705063.1000311114,0.9683682327328447
+inline-constant-prop-conditional.lisp,Constant Propagation (1),696476.4000258583,0.9565748379165124
+inline-constant-prop-conditional.lisp,Constant Propagation and Peephole (5),695717.7000003867,0.9555328021004161
+inline-constant-prop-conditional.lisp,Constant Propagation and inlining (4),695834.9000342423,0.955693770373548
+inline-constant-prop-conditional.lisp,Inlining (2),687877.0999719563,0.9447641375755513
+inline-constant-prop-conditional.lisp,Inlining and Peephole (6),722398.4000120254,0.9921773837232605
+inline-constant-prop-conditional.lisp,No optimizations (0),728093.9999873226,1.0
+inline-constant-prop-conditional.lisp,Peephole (3),688805.5000672466,0.9460392477883899
+inline-function-0.lisp,CP and Inlining and Peephole (7),694116.7000150017,0.946483321532935
+inline-function-0.lisp,Constant Propagation (1),688611.3999826193,0.9389764071184397
+inline-function-0.lisp,Constant Propagation and Peephole (5),701410.2999164606,0.9564287250371527
+inline-function-0.lisp,Constant Propagation and inlining (4),678658.9000512322,0.925405381968905
+inline-function-0.lisp,Inlining (2),697154.000044975,0.9506249216713543
+inline-function-0.lisp,Inlining and Peephole (6),703942.0000182872,0.9598808994646665
+inline-function-0.lisp,No optimizations (0),733363.9000535186,1.0
+inline-function-0.lisp,Peephole (3),681365.9000727057,0.9290965917779451
+inline-function-1.lisp,CP and Inlining and Peephole (7),706651.8000101496,0.8224248792547204
+inline-function-1.lisp,Constant Propagation (1),725652.5000229885,0.8445385261931274
+inline-function-1.lisp,Constant Propagation and Peephole (5),695580.699994025,0.8095399646562613
+inline-function-1.lisp,Constant Propagation and inlining (4),699139.6999183053,0.813682047196703
+inline-function-1.lisp,Inlining (2),698379.2999562866,0.8127970684179897
+inline-function-1.lisp,Inlining and Peephole (6),686352.1999548539,0.7987995292249661
+inline-function-1.lisp,No optimizations (0),859229.5999733324,1.0
+inline-function-1.lisp,Peephole (3),691285.799985053,0.8045414171095924
+inline-function-body.lisp,CP and Inlining and Peephole (7),679622.9999963543,0.7416264574786894
+inline-function-body.lisp,Constant Propagation (1),881348.899929435,0.961756242006102
+inline-function-body.lisp,Constant Propagation and Peephole (5),685710.9999145905,0.7482698786291159
+inline-function-body.lisp,Constant Propagation and inlining (4),701138.4000179532,0.7651047533858922
+inline-function-body.lisp,Inlining (2),1003676.100026496,1.09524361377215
+inline-function-body.lisp,Inlining and Peephole (6),697663.2999794674,0.7613126125505466
+inline-function-body.lisp,No optimizations (0),916395.3000097536,1.0
+inline-function-body.lisp,Peephole (3),769806.9000070973,0.840038027256255
+inline-let.lisp,CP and Inlining and Peephole (7),671576.9000038563,0.9664954469254753
+inline-let.lisp,Constant Propagation (1),662373.8000598678,0.9532508666050178
+inline-let.lisp,Constant Propagation and Peephole (5),656429.7000295483,0.944696454421781
+inline-let.lisp,Constant Propagation and inlining (4),652097.4000522983,0.9384616536079005
+inline-let.lisp,Inlining (2),705194.9999549834,1.0148767127743503
+inline-let.lisp,Inlining and Peephole (6),653801.0999975086,0.9409135220982601
+inline-let.lisp,No optimizations (0),694857.8000447014,1.0
+inline-let.lisp,Peephole (3),651510.2000776096,0.9376165886541057
+inline-nonrecursive.lisp,CP and Inlining and Peephole (7),696684.8000047321,0.9238573497189627
+inline-nonrecursive.lisp,Constant Propagation (1),700550.7000030775,0.9289838289054265
+inline-nonrecursive.lisp,Constant Propagation and Peephole (5),693765.3000022692,0.9199858693382202
+inline-nonrecursive.lisp,Constant Propagation and inlining (4),737340.5999715033,0.9777700511411128
+inline-nonrecursive.lisp,Inlining (2),696124.7000617732,0.9231146143400996
+inline-nonrecursive.lisp,Inlining and Peephole (6),707090.8999594394,0.9376566344528929
+inline-nonrecursive.lisp,No optimizations (0),754104.2999946512,1.0
+inline-nonrecursive.lisp,Peephole (3),684597.9999525298,0.9078293280616296
+inline-simple.lisp,CP and Inlining and Peephole (7),748639.39998977,0.7790579514321594
+inline-simple.lisp,Constant Propagation (1),929086.9999858842,0.9668374586231293
+inline-simple.lisp,Constant Propagation and Peephole (5),916955.2999992447,0.9542128260709152
+inline-simple.lisp,Constant Propagation and inlining (4),964643.2999943498,1.0038384743931796
+inline-simple.lisp,Inlining (2),1149324.4999655872,1.1960236002623112
+inline-simple.lisp,Inlining and Peephole (6),1092273.7000328198,1.1366547247745997
+inline-simple.lisp,No optimizations (0),960954.69998545,1.0
+inline-simple.lisp,Peephole (3),1140719.7000153246,1.1870691719730353
+inline-with-constant-folding.lisp,CP and Inlining and Peephole (7),693452.5000360736,0.9034005230612826
+inline-with-constant-folding.lisp,Constant Propagation (1),697797.5000154402,0.9090610048590363
+inline-with-constant-folding.lisp,Constant Propagation and Peephole (5),740014.9999739369,0.9640601742943785
+inline-with-constant-folding.lisp,Constant Propagation and inlining (4),703586.5999569069,0.9166027988750691
+inline-with-constant-folding.lisp,Inlining (2),689118.3000334422,0.8977541110154312
+inline-with-constant-folding.lisp,Inlining and Peephole (6),692636.9000211707,0.9023379939334277
+inline-with-constant-folding.lisp,No optimizations (0),767602.5000364461,1.0
+inline-with-constant-folding.lisp,Peephole (3),718739.599960827,0.9363434849765353
+inline1.lisp,CP and Inlining and Peephole (7),711692.7999959444,0.9619901245021526
+inline1.lisp,Constant Propagation (1),718993.4000052745,0.9718582939032705
+inline1.lisp,Constant Propagation and Peephole (5),1020375.2000052192,1.3792339415229764
+inline1.lisp,Constant Propagation and inlining (4),722141.3000479515,0.9761132881282963
+inline1.lisp,Inlining (2),720155.9999884921,0.9734297720784159
+inline1.lisp,Inlining and Peephole (6),823014.8000620829,1.1124632846972025
+inline1.lisp,No optimizations (0),739813.00001833,1.0
+inline1.lisp,Peephole (3),714459.6000216552,0.9657299885294707
+inline2.lisp,CP and Inlining and Peephole (7),736840.1000348968,0.9407169895488895
+inline2.lisp,Constant Propagation (1),707920.1000124158,0.9037950910832473
+inline2.lisp,Constant Propagation and Peephole (5),718120.7000030554,0.9168181034224677
+inline2.lisp,Constant Propagation and inlining (4),728089.6999873221,0.9295454341602604
+inline2.lisp,Inlining (2),706324.4999699236,0.9017580031608795
+inline2.lisp,Inlining and Peephole (6),687603.5999994201,0.8778572020765413
+inline2.lisp,No optimizations (0),783275.0000488886,1.0
+inline2.lisp,Peephole (3),720685.5999356776,0.9200926876137954
+inlineTrivialRecursion.lisp,CP and Inlining and Peephole (7),4142966.600011277,0.9207017604037292
+inlineTrivialRecursion.lisp,Constant Propagation (1),4400682.300001791,0.9779745606875402
+inlineTrivialRecursion.lisp,Constant Propagation and Peephole (5),4384494.399982941,0.9743770834487534
+inlineTrivialRecursion.lisp,Constant Propagation and inlining (4),4203471.499931766,0.9341479146328494
+inlineTrivialRecursion.lisp,Inlining (2),4143891.7000050414,0.9209073476736835
+inlineTrivialRecursion.lisp,Inlining and Peephole (6),4251524.099981907,0.9448267633249969
+inlineTrivialRecursion.lisp,No optimizations (0),4499792.200022057,1.0
+inlineTrivialRecursion.lisp,Peephole (3),4456251.7000485975,0.9903238865178606
+inline_1.lisp,CP and Inlining and Peephole (7),721415.6000372896,0.9803228962436822
+inline_1.lisp,Constant Propagation (1),681284.6999309841,0.9257895035376666
+inline_1.lisp,Constant Propagation and Peephole (5),711109.3000276014,0.9663177903455958
+inline_1.lisp,Constant Propagation and inlining (4),686365.1999992726,0.9326933333703642
+inline_1.lisp,Inlining (2),677783.1999897899,0.9210313577984129
+inline_1.lisp,Inlining and Peephole (6),701812.9999778466,0.9536851611251369
+inline_1.lisp,No optimizations (0),735895.9000157483,1.0
+inline_1.lisp,Peephole (3),678484.8000279453,0.9219847535683044
+inline_3.lisp,CP and Inlining and Peephole (7),715335.9999392706,0.9934296399253207
+inline_3.lisp,Constant Propagation (1),889406.9999769272,1.235172388652535
+inline_3.lisp,Constant Propagation and Peephole (5),700979.5000158192,0.9734919147853124
+inline_3.lisp,Constant Propagation and inlining (4),721140.4999907245,1.001490694306132
+inline_3.lisp,Inlining (2),702108.5999440402,0.9750599629965411
+inline_3.lisp,Inlining and Peephole (6),701647.7999968629,0.974420022708843
+inline_3.lisp,No optimizations (0),720067.1000646253,1.0
+inline_3.lisp,Peephole (3),738162.5000562053,1.0251301579949368
+inline_heuristics.lisp,CP and Inlining and Peephole (7),683530.9000052803,0.9275759458527825
+inline_heuristics.lisp,Constant Propagation (1),723050.2999846067,0.9812051889712354
+inline_heuristics.lisp,Constant Propagation and Peephole (5),684048.8999841909,0.9282788904020136
+inline_heuristics.lisp,Constant Propagation and inlining (4),689892.9000271892,0.9362094080529434
+inline_heuristics.lisp,Inlining (2),696140.4000321636,0.9446874896236297
+inline_heuristics.lisp,Inlining and Peephole (6),677878.3999834559,0.9199053005986526
+inline_heuristics.lisp,No optimizations (0),736900.1999904867,1.0
+inline_heuristics.lisp,Peephole (3),706773.9999911282,0.959117666137494
+inlining-1.lisp,CP and Inlining and Peephole (7),702493.3000138844,0.7075816612293048
+inlining-1.lisp,Constant Propagation (1),786601.1999794864,0.7922987789284951
+inlining-1.lisp,Constant Propagation and Peephole (5),694957.1999939508,0.6999909750673308
+inlining-1.lisp,Constant Propagation and inlining (4),697809.8999752547,0.7028643379758737
+inlining-1.lisp,Inlining (2),717667.69997339,0.7228659737363317
+inlining-1.lisp,Inlining and Peephole (6),701756.0000349476,0.7068390207743566
+inlining-1.lisp,No optimizations (0),992808.8000378922,1.0
+inlining-1.lisp,Peephole (3),692743.0999894568,0.6977608376990787
+inlining-globally-unique-names-1.lisp,CP and Inlining and Peephole (7),696994.0999624669,0.9633703318913096
+inlining-globally-unique-names-1.lisp,Constant Propagation (1),887867.1000275062,1.2271909086101784
+inlining-globally-unique-names-1.lisp,Constant Propagation and Peephole (5),693027.4000296777,0.9578876441168074
+inlining-globally-unique-names-1.lisp,Constant Propagation and inlining (4),692718.0999809934,0.9574601362073847
+inlining-globally-unique-names-1.lisp,Inlining (2),944997.3999835493,1.3061551868338634
+inlining-globally-unique-names-1.lisp,Inlining and Peephole (6),688671.5999826265,0.951867150489665
+inlining-globally-unique-names-1.lisp,No optimizations (0),723495.5000058108,1.0
+inlining-globally-unique-names-1.lisp,Peephole (3),724090.600033378,1.0008225345251802
+inlining-mf.lisp,CP and Inlining and Peephole (7),700930.7999396697,0.944056630578486
+inlining-mf.lisp,Constant Propagation (1),708319.2000209237,0.9540077813720806
+inlining-mf.lisp,Constant Propagation and Peephole (5),710174.6000444109,0.9565067480242798
+inlining-mf.lisp,Constant Propagation and inlining (4),716061.8999478174,0.9644361249477841
+inlining-mf.lisp,Inlining (2),697296.2999498122,0.9391614628749728
+inlining-mf.lisp,Inlining and Peephole (6),707385.4000736901,0.952750082278396
+inlining-mf.lisp,No optimizations (0),742466.9000101858,1.0
+inlining-mf.lisp,Peephole (3),700149.3000643677,0.9430040585711801
+inlining-nested-function-1.lisp,CP and Inlining and Peephole (7),703895.7000077062,0.9861069997934422
+inlining-nested-function-1.lisp,Constant Propagation (1),690280.6000653072,0.9670332288413823
+inlining-nested-function-1.lisp,Constant Propagation and Peephole (5),684948.5999737226,0.9595634820974352
+inlining-nested-function-1.lisp,Constant Propagation and inlining (4),707058.1000334641,0.9905372936587304
+inlining-nested-function-1.lisp,Inlining (2),740140.500056441,1.0368833449732462
+inlining-nested-function-1.lisp,Inlining and Peephole (6),681265.7000409672,0.9544040054829466
+inlining-nested-function-1.lisp,No optimizations (0),713812.6999961969,1.0
+inlining-nested-function-1.lisp,Peephole (3),693326.9000001019,0.9713008748706711
+inlining.lisp,CP and Inlining and Peephole (7),692523.700035963,0.9486973017366309
+inlining.lisp,Constant Propagation (1),712117.6000509877,0.9755392424150308
+inlining.lisp,Constant Propagation and Peephole (5),707973.899989156,0.9698627333400901
+inlining.lisp,Constant Propagation and inlining (4),681150.4999859608,0.9331170057857664
+inlining.lisp,Inlining (2),702243.5000180849,0.9620125832439352
+inlining.lisp,Inlining and Peephole (6),820551.8000067968,1.124084675457545
+inlining.lisp,No optimizations (0),729973.2999854314,1.0
+inlining.lisp,Peephole (3),699819.5999585732,0.958692050753829
+inlining1-ylu168.lisp,CP and Inlining and Peephole (7),729857.5999811874,0.8143526301805865
+inlining1-ylu168.lisp,Constant Propagation (1),965363.7000155868,1.0771230829257916
+inlining1-ylu168.lisp,Constant Propagation and Peephole (5),704866.9999676349,0.7864688884049962
+inlining1-ylu168.lisp,Constant Propagation and inlining (4),748692.5000193878,0.8353680315214675
+inlining1-ylu168.lisp,Inlining (2),1167566.100048134,1.3027342929749524
+inlining1-ylu168.lisp,Inlining and Peephole (6),705297.199965571,0.7869488923123776
+inlining1-ylu168.lisp,No optimizations (0),896242.6999460149,1.0
+inlining1-ylu168.lisp,Peephole (3),724907.7999404108,0.8088297957507219
+inlining2-ylu168.lisp,CP and Inlining and Peephole (7),14894029.90000599,0.8312827200729584
+inlining2-ylu168.lisp,Constant Propagation (1),20259608.700052924,1.1307525727329844
+inlining2-ylu168.lisp,Constant Propagation and Peephole (5),18824181.600029983,1.050636865151853
+inlining2-ylu168.lisp,Constant Propagation and inlining (4),13991117.49997246,0.7808883351464737
+inlining2-ylu168.lisp,Inlining (2),14560560.899917616,0.8126707648590534
+inlining2-ylu168.lisp,Inlining and Peephole (6),15982116.500072151,0.8920122603418129
+inlining2-ylu168.lisp,No optimizations (0),17916924.70005728,1.0
+inlining2-ylu168.lisp,Peephole (3),19073378.40002583,1.0645453234485522
+inlining_and_cp-1.lisp,CP and Inlining and Peephole (7),686639.8000056506,1.006351695583608
+inlining_and_cp-1.lisp,Constant Propagation (1),699780.9000495181,1.0256115292123476
+inlining_and_cp-1.lisp,Constant Propagation and Peephole (5),657249.8999958043,0.963277327177206
+inlining_and_cp-1.lisp,Constant Propagation and inlining (4),671833.1999763905,0.9846508750876921
+inlining_and_cp-1.lisp,Inlining (2),680452.2000493307,0.9972830373037
+inlining_and_cp-1.lisp,Inlining and Peephole (6),1732775.300024514,2.5395867836829655
+inlining_and_cp-1.lisp,No optimizations (0),682305.999998789,1.0
+inlining_and_cp-1.lisp,Peephole (3),653441.0999847751,0.9576950810720334
+interleaving-constants.lisp,CP and Inlining and Peephole (7),749438.2000004407,1.0138148568703715
+interleaving-constants.lisp,Constant Propagation (1),695752.1000003908,0.9411901017038387
+interleaving-constants.lisp,Constant Propagation and Peephole (5),708128.8000335917,0.9579328863292818
+interleaving-constants.lisp,Constant Propagation and inlining (4),716592.6000197942,0.9693824310303476
+interleaving-constants.lisp,Inlining (2),698724.3000367016,0.9452107942097728
+interleaving-constants.lisp,Inlining and Peephole (6),726269.7000442131,0.9824732873226619
+interleaving-constants.lisp,No optimizations (0),739225.8999971091,1.0
+interleaving-constants.lisp,Peephole (3),702562.5000096625,0.9504029823798247
+left_right_pair.lisp,CP and Inlining and Peephole (7),687356.400067074,0.949790560261788
+left_right_pair.lisp,Constant Propagation (1),697369.0999984683,0.9636261306829613
+left_right_pair.lisp,Constant Propagation and Peephole (5),683212.3000094725,0.9440642338391256
+left_right_pair.lisp,Constant Propagation and inlining (4),692876.9999831275,0.9574189371660228
+left_right_pair.lisp,Inlining (2),698754.0000409354,0.965539788556974
+left_right_pair.lisp,Inlining and Peephole (6),682236.6000051261,0.9427160094628265
+left_right_pair.lisp,No optimizations (0),723692.6000587118,1.0
+left_right_pair.lisp,Peephole (3),690451.2000801333,0.954066961613423
+let-constant.lisp,CP and Inlining and Peephole (7),697199.6999709518,0.9380423563753791
+let-constant.lisp,Constant Propagation (1),706051.7000354594,0.9499522166341998
+let-constant.lisp,Constant Propagation and Peephole (5),716822.1000029007,0.9644431743396964
+let-constant.lisp,Constant Propagation and inlining (4),677514.4999664917,0.9115570446366138
+let-constant.lisp,Inlining (2),709711.1000803125,0.9548757302862241
+let-constant.lisp,Inlining and Peephole (6),693870.2000297781,0.9335627044614435
+let-constant.lisp,No optimizations (0),743249.7000081639,1.0
+let-constant.lisp,Peephole (3),693817.1000001603,0.9334912614058766
+let-nested.lisp,CP and Inlining and Peephole (7),709315.9999385534,0.9595532989323193
+let-nested.lisp,Constant Propagation (1),704964.6000268694,0.9536667827102239
+let-nested.lisp,Constant Propagation and Peephole (5),705974.4999423856,0.9550329619527744
+let-nested.lisp,Constant Propagation and inlining (4),773376.5000011772,1.046213495758092
+let-nested.lisp,Inlining (2),705220.3999592166,0.9540128254739169
+let-nested.lisp,Inlining and Peephole (6),739151.6999632586,0.9999146391349103
+let-nested.lisp,No optimizations (0),739214.7999780718,1.0
+let-nested.lisp,Peephole (3),749091.4999834786,1.013361069077215
+let_unused_print.lisp,CP and Inlining and Peephole (7),720219.3000011903,0.9863649180815055
+let_unused_print.lisp,Constant Propagation (1),705335.600014223,0.9659811828520131
+let_unused_print.lisp,Constant Propagation and Peephole (5),706850.6999530655,0.9680561639404942
+let_unused_print.lisp,Constant Propagation and inlining (4),700780.1000327163,0.9597422701124186
+let_unused_print.lisp,Inlining (2),731382.8999940597,1.0016538493729097
+let_unused_print.lisp,Inlining and Peephole (6),694465.0000150432,0.9510935250543532
+let_unused_print.lisp,No optimizations (0),730175.3000319877,1.0
+let_unused_print.lisp,Peephole (3),688294.7999656608,0.9426432254494336
+let_unused_var.lisp,CP and Inlining and Peephole (7),12541283.80005568,0.9249965648157049
+let_unused_var.lisp,Constant Propagation (1),13465555.800030416,0.9931672910796441
+let_unused_var.lisp,Constant Propagation and Peephole (5),11651112.799972909,0.8593409963505795
+let_unused_var.lisp,Constant Propagation and inlining (4),14886019.000005037,1.0979351602524807
+let_unused_var.lisp,Inlining (2),15467189.299943129,1.1408000327476921
+let_unused_var.lisp,Inlining and Peephole (6),12460025.299969856,0.919003252277707
+let_unused_var.lisp,No optimizations (0),13558194.999950502,1.0
+let_unused_var.lisp,Peephole (3),11440196.70000489,0.8437846409530662
+long-func-many-calls.lisp,CP and Inlining and Peephole (7),670264.899963513,0.924153024469038
+long-func-many-calls.lisp,Constant Propagation (1),694222.8999832878,0.957186021094267
+long-func-many-calls.lisp,Constant Propagation and Peephole (5),688358.0000248912,0.9490995689541422
+long-func-many-calls.lisp,Constant Propagation and inlining (4),676209.5999874873,0.9323495039609764
+long-func-many-calls.lisp,Inlining (2),673811.4999279787,0.9290430330073356
+long-func-many-calls.lisp,Inlining and Peephole (6),673486.1999575514,0.928594513397333
+long-func-many-calls.lisp,No optimizations (0),725274.799970066,1.0
+long-func-many-calls.lisp,Peephole (3),654469.7000208544,0.9023747964879879
+long_pair.lisp,CP and Inlining and Peephole (7),692576.7999746313,0.9269275310254165
+long_pair.lisp,Constant Propagation (1),700856.5000433009,0.938008875278594
+long_pair.lisp,Constant Propagation and Peephole (5),699115.699990216,0.9356790318658864
+long_pair.lisp,Constant Propagation and inlining (4),688042.2999529401,0.9208586691898845
+long_pair.lisp,Inlining (2),696182.4999962118,0.9317533100852181
+long_pair.lisp,Inlining and Peephole (6),699660.0999627844,0.936407643223474
+long_pair.lisp,No optimizations (0),747174.7000636242,1.0
+long_pair.lisp,Peephole (3),688921.3000249583,0.9220351009828017
+long_pair_right.lisp,CP and Inlining and Peephole (7),713467.1000130766,0.9691657943432244
+long_pair_right.lisp,Constant Propagation (1),703179.3000351172,0.9551909609731917
+long_pair_right.lisp,Constant Propagation and Peephole (5),689327.7000017406,0.936375101140235
+long_pair_right.lisp,Constant Propagation and inlining (4),740079.0999781748,1.005315239895463
+long_pair_right.lisp,Inlining (2),685180.1000266278,0.9307410473423452
+long_pair_right.lisp,Inlining and Peephole (6),835815.000027651,1.1353618245479487
+long_pair_right.lisp,No optimizations (0),736166.2000221258,1.0
+long_pair_right.lisp,Peephole (3),683598.1000222091,0.9285920760850787
+looped-arith-peephole.lisp,CP and Inlining and Peephole (7),704636.0000458662,0.9601303290968719
+looped-arith-peephole.lisp,Constant Propagation (1),842250.999994576,1.147643222535215
+looped-arith-peephole.lisp,Constant Propagation and Peephole (5),693544.300065696,0.9450168839258738
+looped-arith-peephole.lisp,Constant Propagation and inlining (4),700842.6000538748,0.9549614782540683
+looped-arith-peephole.lisp,Inlining (2),1023742.50000139,1.394941818716058
+looped-arith-peephole.lisp,Inlining and Peephole (6),690802.7999998012,0.9412813419434668
+looped-arith-peephole.lisp,No optimizations (0),733896.2000176252,1.0
+looped-arith-peephole.lisp,Peephole (3),712710.1000151015,0.9711320211195875
+looped-const-propagation.lisp,CP and Inlining and Peephole (7),706838.4000376682,0.9465832251605637
+looped-const-propagation.lisp,Constant Propagation (1),716781.000028277,0.9598981474470303
+looped-const-propagation.lisp,Constant Propagation and Peephole (5),733897.8999541723,0.9828207423934014
+looped-const-propagation.lisp,Constant Propagation and inlining (4),729033.5000107007,0.9763064395673002
+looped-const-propagation.lisp,Inlining (2),730717.0000785845,0.9785609477034323
+looped-const-propagation.lisp,Inlining and Peephole (6),715239.1000090574,0.957833267139183
+looped-const-propagation.lisp,No optimizations (0),746726.099987427,1.0
+looped-const-propagation.lisp,Peephole (3),712031.1000107904,0.9535371805308255
+looped-mov-rax-peephole.lisp,CP and Inlining and Peephole (7),729507.6999980665,0.9331713124270286
+looped-mov-rax-peephole.lisp,Constant Propagation (1),727756.1000591959,0.9309307016510117
+looped-mov-rax-peephole.lisp,Constant Propagation and Peephole (5),709278.3000189229,0.9072942781912025
+looped-mov-rax-peephole.lisp,Constant Propagation and inlining (4),723531.2999910093,0.9255264239108563
+looped-mov-rax-peephole.lisp,Inlining (2),723998.500052403,0.9261240566629957
+looped-mov-rax-peephole.lisp,Inlining and Peephole (6),705459.900018468,0.9024098590962357
+looped-mov-rax-peephole.lisp,No optimizations (0),781751.1000212107,1.0
+looped-mov-rax-peephole.lisp,Peephole (3),703388.9999547682,0.8997608061385314
+mov-num-list.lisp,CP and Inlining and Peephole (7),1110116.600011679,1.0944867815049601
+mov-num-list.lisp,Constant Propagation (1),969644.9000330176,0.9559928442009346
+mov-num-list.lisp,Constant Propagation and Peephole (5),1187039.2000673746,1.1703263545363567
+mov-num-list.lisp,Constant Propagation and inlining (4),941220.6999513728,0.9279688408990425
+mov-num-list.lisp,Inlining (2),979666.30000883,0.9658731484911194
+mov-num-list.lisp,Inlining and Peephole (6),1336265.3999138274,1.3174515332648271
+mov-num-list.lisp,No optimizations (0),1014280.500021414,1.0
+mov-num-list.lisp,Peephole (3),948066.0000008356,0.9347177629667726
+mult-const-prop.lisp,CP and Inlining and Peephole (7),691912.5000422355,0.9336445606723703
+mult-const-prop.lisp,Constant Propagation (1),689282.7000228863,0.9300959927774824
+mult-const-prop.lisp,Constant Propagation and Peephole (5),695282.8000066802,0.9381923354696836
+mult-const-prop.lisp,Constant Propagation and inlining (4),696155.7999602519,0.9393703336386279
+mult-const-prop.lisp,Inlining (2),719267.2999735805,0.9705562513306866
+mult-const-prop.lisp,Inlining and Peephole (6),687579.5000269136,0.9277977492685416
+mult-const-prop.lisp,No optimizations (0),741087.6999529137,1.0
+mult-const-prop.lisp,Peephole (3),698061.1000471981,0.9419412845356233
+multi_function_elimination.lisp,CP and Inlining and Peephole (7),700001.2999924365,0.9513734884683521
+multi_function_elimination.lisp,Constant Propagation (1),689119.400067284,0.9365838715161154
+multi_function_elimination.lisp,Constant Propagation and Peephole (5),708017.299984931,0.962268053773451
+multi_function_elimination.lisp,Constant Propagation and inlining (4),691332.800033706,0.9395921088543223
+multi_function_elimination.lisp,Inlining (2),692058.7999957206,0.9405788171882885
+multi_function_elimination.lisp,Inlining and Peephole (6),748609.2999897664,1.017436740815782
+multi_function_elimination.lisp,No optimizations (0),735779.7000622668,1.0
+multi_function_elimination.lisp,Peephole (3),715790.8000408497,0.9728330368183229
+multiple_function_calls.lisp,CP and Inlining and Peephole (7),725859.5000166679,0.9935635826221603
+multiple_function_calls.lisp,Constant Propagation (1),694126.3000044273,0.9501268680906244
+multiple_function_calls.lisp,Constant Propagation and Peephole (5),681036.299920379,0.9322091479536933
+multiple_function_calls.lisp,Constant Propagation and inlining (4),700559.999950201,0.9589333794988131
+multiple_function_calls.lisp,Inlining (2),689301.7000038526,0.9435229084246287
+multiple_function_calls.lisp,Inlining and Peephole (6),689722.500010248,0.9440989035888611
+multiple_function_calls.lisp,No optimizations (0),730561.7000383791,1.0
+multiple_function_calls.lisp,Peephole (3),689642.30003985,0.9439891250850141
+mutually-recursive-funcs.lisp,CP and Inlining and Peephole (7),702940.2000625851,0.9004856888405857
+mutually-recursive-funcs.lisp,Constant Propagation (1),872944.5999961172,1.1182659910148633
+mutually-recursive-funcs.lisp,Constant Propagation and Peephole (5),682175.4000156943,0.8738854100797513
+mutually-recursive-funcs.lisp,Constant Propagation and inlining (4),688441.7000037502,0.8819127123463222
+mutually-recursive-funcs.lisp,Inlining (2),711413.9000805153,0.9113407311286708
+mutually-recursive-funcs.lisp,Inlining and Peephole (6),680704.6000176342,0.8720012749153632
+mutually-recursive-funcs.lisp,No optimizations (0),780623.3999872347,1.0
+mutually-recursive-funcs.lisp,Peephole (3),697224.4999815302,0.8931637201663846
+nested-cse.lisp,CP and Inlining and Peephole (7),732889.0000280808,1.0010797726835268
+nested-cse.lisp,Constant Propagation (1),707852.0000504795,0.9668808227125296
+nested-cse.lisp,Constant Propagation and Peephole (5),696088.3999454381,0.950812492967311
+nested-cse.lisp,Constant Propagation and inlining (4),692543.1000126991,0.9459698386900257
+nested-cse.lisp,Inlining (2),741971.2000228174,1.0134854803771187
+nested-cse.lisp,Inlining and Peephole (6),686799.6999972092,0.9381247194677194
+nested-cse.lisp,No optimizations (0),732098.5000660585,1.0
+nested-cse.lisp,Peephole (3),702542.1999969694,0.9596279734674745
+nested-expr-cprop.lisp,CP and Inlining and Peephole (7),724170.0000122364,0.8411636695514139
+nested-expr-cprop.lisp,Constant Propagation (1),761224.7999531974,0.8842048774063451
+nested-expr-cprop.lisp,Constant Propagation and Peephole (5),806304.3000220205,0.9365672200866464
+nested-expr-cprop.lisp,Constant Propagation and inlining (4),697663.6999752373,0.8103751301131932
+nested-expr-cprop.lisp,Inlining (2),754056.1000496382,0.8758780343768233
+nested-expr-cprop.lisp,Inlining and Peephole (6),702388.9000265626,0.815863712372152
+nested-expr-cprop.lisp,No optimizations (0),860914.5000264107,1.0
+nested-expr-cprop.lisp,Peephole (3),701568.6000158894,0.8149108883569356
+nested-inlining.lisp,CP and Inlining and Peephole (7),707739.3999679771,0.951657751435156
+nested-inlining.lisp,Constant Propagation (1),704255.600066972,0.9469732797491222
+nested-inlining.lisp,Constant Propagation and Peephole (5),715244.9999921373,0.9617501137403875
+nested-inlining.lisp,Constant Propagation and inlining (4),717135.6000071683,0.9642922982778727
+nested-inlining.lisp,Inlining (2),748572.3000172584,1.006563477818672
+nested-inlining.lisp,Inlining and Peephole (6),718764.400062355,0.9664824549911015
+nested-inlining.lisp,No optimizations (0),743691.099978605,1.0
+nested-inlining.lisp,Peephole (3),744308.2999998296,1.0008299144917054
+nested-prim.lisp,CP and Inlining and Peephole (7),697312.6000048069,0.9368977890323401
+nested-prim.lisp,Constant Propagation (1),700710.999990406,0.9414638235952225
+nested-prim.lisp,Constant Propagation and Peephole (5),719992.1999927028,0.9673697281377731
+nested-prim.lisp,Constant Propagation and inlining (4),715768.8000006601,0.9616952370777855
+nested-prim.lisp,Inlining (2),719078.8999650977,0.9661426331783811
+nested-prim.lisp,Inlining and Peephole (6),703947.9999548348,0.9458130037330119
+nested-prim.lisp,No optimizations (0),744278.199999826,1.0
+nested-prim.lisp,Peephole (3),693181.2999937392,0.9313470419984103
+nested-prims.lisp,CP and Inlining and Peephole (7),910196.8000322812,1.2461380468504477
+nested-prims.lisp,Constant Propagation (1),693689.2000339867,0.9497204393829374
+nested-prims.lisp,Constant Propagation and Peephole (5),741750.1999952947,1.0155201000929504
+nested-prims.lisp,Constant Propagation and inlining (4),716330.100021878,0.9807177873068661
+nested-prims.lisp,Inlining (2),710811.8000360264,0.9731627579263408
+nested-prims.lisp,Inlining and Peephole (6),895823.1999713462,1.2264593466995486
+nested-prims.lisp,No optimizations (0),730414.1000531672,1.0
+nested-prims.lisp,Peephole (3),692183.0999999656,0.947658458331488
+nested_if.lisp,CP and Inlining and Peephole (7),721622.0000373141,0.986241287464409
+nested_if.lisp,Constant Propagation (1),702312.9999652156,0.9598516636866248
+nested_if.lisp,Constant Propagation and Peephole (5),716673.0999415449,0.9794776222744178
+nested_if.lisp,Constant Propagation and inlining (4),720685.5000731593,0.9849613723144958
+nested_if.lisp,Inlining (2),845174.0999589674,1.1551000280368442
+nested_if.lisp,Inlining and Peephole (6),771775.5000157922,1.0547861106364613
+nested_if.lisp,No optimizations (0),731689.1000300529,1.0
+nested_if.lisp,Peephole (3),694882.0999241434,0.9496958474516052
+nestiffold.lisp,CP and Inlining and Peephole (7),696396.8999116332,0.9629839969134266
+nestiffold.lisp,Constant Propagation (1),715113.8999688555,0.9888660356295953
+nestiffold.lisp,Constant Propagation and Peephole (5),685652.9000287992,0.9481270956961441
+nestiffold.lisp,Constant Propagation and inlining (4),692541.7999809724,0.9576531295011801
+nestiffold.lisp,Inlining (2),698693.2000472734,0.9661593417247148
+nestiffold.lisp,Inlining and Peephole (6),687832.2999909869,0.9511407898793417
+nestiffold.lisp,No optimizations (0),723165.5999930808,1.0
+nestiffold.lisp,Peephole (3),690483.2000145689,0.9548064786560303
+new-inline-vars.lisp,CP and Inlining and Peephole (7),690112.8999743378,0.9567939558392669
+new-inline-vars.lisp,Constant Propagation (1),695535.5999707535,0.964312155515136
+new-inline-vars.lisp,Constant Propagation and Peephole (5),690346.3999151427,0.9571176874084917
+new-inline-vars.lisp,Constant Propagation and inlining (4),736082.300045382,1.020527359668072
+new-inline-vars.lisp,Inlining (2),691395.299963915,0.9585719150094859
+new-inline-vars.lisp,Inlining and Peephole (6),689309.1000165441,0.9556795426159386
+new-inline-vars.lisp,No optimizations (0),721276.3999632443,1.0
+new-inline-vars.lisp,Peephole (3),675051.1000063852,0.9359118086225826
+non-unique-names-1.lisp,CP and Inlining and Peephole (7),695952.0999771485,0.9448302012086239
+non-unique-names-1.lisp,Constant Propagation (1),703845.8999886643,0.955546887965408
+non-unique-names-1.lisp,Constant Propagation and Peephole (5),704327.4999887217,0.9562007120216486
+non-unique-names-1.lisp,Constant Propagation and inlining (4),727105.1999850897,0.9871239018091996
+non-unique-names-1.lisp,Inlining (2),682310.6999945594,0.9263105262328027
+non-unique-names-1.lisp,Inlining and Peephole (6),701380.4999587592,0.9521998409396263
+non-unique-names-1.lisp,No optimizations (0),736589.6000010252,1.0
+non-unique-names-1.lisp,Peephole (3),684438.9000434603,0.9291997878364121
+non-unique-names.lisp,CP and Inlining and Peephole (7),728908.8999641535,0.8546499589125712
+non-unique-names.lisp,Constant Propagation (1),751744.8999351473,0.8814253027695294
+non-unique-names.lisp,Constant Propagation and Peephole (5),693936.3000128651,0.8136443804199718
+non-unique-names.lisp,Constant Propagation and inlining (4),693487.1999874304,0.8131178080070072
+non-unique-names.lisp,Inlining (2),694193.1000255863,0.8139454799405452
+non-unique-names.lisp,Inlining and Peephole (6),697632.299943507,0.8179779620088634
+non-unique-names.lisp,No optimizations (0),852874.1999725753,1.0
+non-unique-names.lisp,Peephole (3),692068.9000253333,0.8114548429857383
+noop-1.lisp,CP and Inlining and Peephole (7),748103.4000193176,0.9484560053721235
+noop-1.lisp,Constant Propagation (1),760210.6000376807,0.963805683725893
+noop-1.lisp,Constant Propagation and Peephole (5),777340.6000524119,0.9855233385120855
+noop-1.lisp,Constant Propagation and inlining (4),795143.800041842,1.0080944856882377
+noop-1.lisp,Inlining (2),888561.70004874,1.126531012334831
+noop-1.lisp,Inlining and Peephole (6),756994.89998442,0.9597287740006976
+noop-1.lisp,No optimizations (0),788759.1999860888,1.0
+noop-1.lisp,Peephole (3),804065.0000111782,1.0194049083996224
+noop-2.lisp,CP and Inlining and Peephole (7),790540.5999736104,0.9269679409524061
+noop-2.lisp,Constant Propagation (1),797495.5000463524,0.9351230811187361
+noop-2.lisp,Constant Propagation and Peephole (5),912530.10004948,1.0700097476691226
+noop-2.lisp,Constant Propagation and inlining (4),770843.8000008755,0.903871970783781
+noop-2.lisp,Inlining (2),766340.3999686125,0.8985913976477129
+noop-2.lisp,Inlining and Peephole (6),772397.6999841398,0.9056940346575157
+noop-2.lisp,No optimizations (0),852824.1000021808,1.0
+noop-2.lisp,Peephole (3),786825.3999731678,0.9226115912661893
+noop-3.lisp,CP and Inlining and Peephole (7),801823.4999326523,0.984036325449963
+noop-3.lisp,Constant Propagation (1),808471.3000243937,0.9921948251386757
+noop-3.lisp,Constant Propagation and Peephole (5),792102.1000584005,0.9721057564266156
+noop-3.lisp,Constant Propagation and inlining (4),783665.7000552805,0.9617522009873031
+noop-3.lisp,Inlining (2),786108.0000111542,0.9647495088417455
+noop-3.lisp,Inlining and Peephole (6),782106.0999958718,0.9598381848581163
+noop-3.lisp,No optimizations (0),814831.2000230362,1.0
+noop-3.lisp,Peephole (3),782175.2000381821,0.9599229877501857
+noop-compare-1.lisp,CP and Inlining and Peephole (7),768610.0000682927,0.9695772908286799
+noop-compare-1.lisp,Constant Propagation (1),758746.9999634777,0.9571354270483234
+noop-compare-1.lisp,Constant Propagation and Peephole (5),745907.3000063654,0.9409385502208506
+noop-compare-1.lisp,Constant Propagation and inlining (4),754395.9000031464,0.9516466515818476
+noop-compare-1.lisp,Inlining (2),759683.3000206971,0.9583165400611658
+noop-compare-1.lisp,Inlining and Peephole (6),742492.8999171243,0.9366313921198144
+noop-compare-1.lisp,No optimizations (0),792726.899999252,1.0
+noop-compare-1.lisp,Peephole (3),755613.3999969461,0.9531824894521165
+noop-compare-2.lisp,CP and Inlining and Peephole (7),733321.3999118016,0.9811214882399423
+noop-compare-2.lisp,Constant Propagation (1),707212.0999509934,0.9461894717495848
+noop-compare-2.lisp,Constant Propagation and Peephole (5),722933.1999951683,0.9672229627590725
+noop-compare-2.lisp,Constant Propagation and inlining (4),716674.5000176888,0.95884935599253
+noop-compare-2.lisp,Inlining (2),716185.7999562926,0.9581955169915166
+noop-compare-2.lisp,Inlining and Peephole (6),700924.4000073522,0.9377770655017194
+noop-compare-2.lisp,No optimizations (0),747431.7999367486,1.0
+noop-compare-2.lisp,Peephole (3),755243.799994787,1.0104517897936633
+noop-const-many-occurrences.lisp,CP and Inlining and Peephole (7),48555118.700005546,0.6387744348283543
+noop-const-many-occurrences.lisp,Constant Propagation (1),78253474.09998357,1.0294757798947891
+noop-const-many-occurrences.lisp,Constant Propagation and Peephole (5),73554776.89998224,0.9676613362538536
+noop-const-many-occurrences.lisp,Constant Propagation and inlining (4),48367667.59999591,0.6363083926545845
+noop-const-many-occurrences.lisp,Inlining (2),49975614.49999921,0.6574619888105238
+noop-const-many-occurrences.lisp,Inlining and Peephole (6),49220384.79999173,0.6475264467357844
+noop-const-many-occurrences.lisp,No optimizations (0),76012933.60003182,1.0
+noop-const-many-occurrences.lisp,Peephole (3),76453386.80003987,1.0057944507486798
+noop-const.lisp,CP and Inlining and Peephole (7),3661693.599951832,0.730950805210204
+noop-const.lisp,Constant Propagation (1),4981535.5000646375,0.9944189172472983
+noop-const.lisp,Constant Propagation and Peephole (5),5079627.699979028,1.0140001767260287
+noop-const.lisp,Constant Propagation and inlining (4),4162297.699986084,0.830881878093085
+noop-const.lisp,Inlining (2),6255732.099998568,1.248775270474139
+noop-const.lisp,Inlining and Peephole (6),4758501.800006343,0.9498967151032505
+noop-const.lisp,No optimizations (0),5009493.900070083,1.0
+noop-const.lisp,Peephole (3),16782935.499941234,3.3502257582759882
+nx-nested-call.lisp,CP and Inlining and Peephole (7),710492.9999513843,0.49694249705350885
+nx-nested-call.lisp,Constant Propagation (1),1052576.3000259758,0.7362069646147716
+nx-nested-call.lisp,Constant Propagation and Peephole (5),822009.2000556178,0.5749406461492895
+nx-nested-call.lisp,Constant Propagation and inlining (4),1269442.7999122126,0.8878906265060151
+nx-nested-call.lisp,Inlining (2),1006456.300001446,0.7039490986289478
+nx-nested-call.lisp,Inlining and Peephole (6),703716.6000372963,0.4922028569802492
+nx-nested-call.lisp,No optimizations (0),1429728.7999397668,1.0
+nx-nested-call.lisp,Peephole (3),1528610.200057301,1.069160948651031
+nx-nested-def.lisp,CP and Inlining and Peephole (7),696641.099966655,0.9459762126136043
+nx-nested-def.lisp,Constant Propagation (1),694358.7999558076,0.9428770536343067
+nx-nested-def.lisp,Constant Propagation and Peephole (5),688669.8000016622,0.9351519012847841
+nx-nested-def.lisp,Constant Propagation and inlining (4),690034.4000314362,0.9370049058921204
+nx-nested-def.lisp,Inlining (2),689004.5000545797,0.935606393976122
+nx-nested-def.lisp,Inlining and Peephole (6),689316.7999805883,0.9360304693015934
+nx-nested-def.lisp,No optimizations (0),736425.600007351,1.0
+nx-nested-def.lisp,Peephole (3),683219.3999798619,0.9277507462709634
+nx-nested-if.lisp,CP and Inlining and Peephole (7),708966.3999977347,0.7652925434749467
+nx-nested-if.lisp,Constant Propagation (1),996046.500040393,1.075180656569432
+nx-nested-if.lisp,Constant Propagation and Peephole (5),699754.2000135581,0.7553484502754483
+nx-nested-if.lisp,Constant Propagation and inlining (4),713493.1000109646,0.770178881906054
+nx-nested-if.lisp,Inlining (2),702595.7999758248,0.7584158103967013
+nx-nested-if.lisp,Inlining and Peephole (6),688564.2999804986,0.7432695322088687
+nx-nested-if.lisp,No optimizations (0),926399.199943262,1.0
+nx-nested-if.lisp,Peephole (3),696880.4999814893,0.7522464397898554
+ordered-inlining.lisp,CP and Inlining and Peephole (7),702408.7999525364,0.9488796160128082
+ordered-inlining.lisp,Constant Propagation (1),700465.6000390241,0.94625455951025
+ordered-inlining.lisp,Constant Propagation and Peephole (5),697976.59998585,0.9428921850427443
+ordered-inlining.lisp,Constant Propagation and inlining (4),701469.3999735755,0.9476105865083672
+ordered-inlining.lisp,Inlining (2),696806.7999878258,0.9413119096062577
+ordered-inlining.lisp,Inlining and Peephole (6),701552.8000010818,0.9477232510793135
+ordered-inlining.lisp,No optimizations (0),740250.6999824254,1.0
+ordered-inlining.lisp,Peephole (3),710689.9000064004,0.9600665018260343
+ordered_function_inlining.lisp,CP and Inlining and Peephole (7),688019.1000163904,0.9518958665159613
+ordered_function_inlining.lisp,Constant Propagation (1),693935.7000192103,0.9600816670066431
+ordered_function_inlining.lisp,Constant Propagation and Peephole (5),688502.4999974121,0.9525646654545336
+ordered_function_inlining.lisp,Constant Propagation and inlining (4),686684.4999422028,0.9500494057214269
+ordered_function_inlining.lisp,Inlining (2),694161.8000382732,0.9603944834292685
+ordered_function_inlining.lisp,Inlining and Peephole (6),734072.2000662936,1.015611765648274
+ordered_function_inlining.lisp,No optimizations (0),722788.2000734098,1.0
+ordered_function_inlining.lisp,Peephole (3),696308.7999793061,0.9633649247574678
+pair_empty.lisp,CP and Inlining and Peephole (7),706443.000035506,0.990456222861561
+pair_empty.lisp,Constant Propagation (1),679412.199951912,0.9525581558549139
+pair_empty.lisp,Constant Propagation and Peephole (5),683332.9000073718,0.9580551057400547
+pair_empty.lisp,Constant Propagation and inlining (4),686984.3999993464,0.9631746283195811
+pair_empty.lisp,Inlining (2),677529.6999876446,0.9499188292509958
+pair_empty.lisp,Inlining and Peephole (6),682502.6999649708,0.9568911380906129
+pair_empty.lisp,No optimizations (0),713250.1000342018,1.0
+pair_empty.lisp,Peephole (3),669555.9000036155,0.938739300522368
+partition_1.lisp,CP and Inlining and Peephole (7),798101.7000020074,0.96969635484309
+partition_1.lisp,Constant Propagation (1),807771.000017965,0.9814445881563817
+partition_1.lisp,Constant Propagation and Peephole (5),833630.5999364413,1.0128640924358288
+partition_1.lisp,Constant Propagation and inlining (4),804399.4000217936,0.9773480823773961
+partition_1.lisp,Inlining (2),1072080.7999859971,1.3025819188720817
+partition_1.lisp,Inlining and Peephole (6),803022.0999899029,0.9756746580250282
+partition_1.lisp,No optimizations (0),823042.8999922879,1.0
+partition_1.lisp,Peephole (3),1063450.6000315014,1.2920961957650885
+peephole-basic-tji6.lisp,CP and Inlining and Peephole (7),706893.4999551857,0.9328156723392046
+peephole-basic-tji6.lisp,Constant Propagation (1),738622.1000160731,0.974684688534791
+peephole-basic-tji6.lisp,Constant Propagation and Peephole (5),712586.8999537488,0.9403286750021126
+peephole-basic-tji6.lisp,Constant Propagation and inlining (4),739609.4999421621,0.9759876600941289
+peephole-basic-tji6.lisp,Inlining (2),758083.699929557,1.0003661885192214
+peephole-basic-tji6.lisp,Inlining and Peephole (6),694236.9000171311,0.9161140407900488
+peephole-basic-tji6.lisp,No optimizations (0),757806.1999993224,1.0
+peephole-basic-tji6.lisp,Peephole (3),690738.5999511462,0.9114976889233207
+peephole-basic-tji6.out.lisp,CP and Inlining and Peephole (7),652304.3999550282,0.9526992329707176
+peephole-basic-tji6.out.lisp,Constant Propagation (1),674113.1000126188,0.9845511288315878
+peephole-basic-tji6.out.lisp,Constant Propagation and Peephole (5),669494.0999295795,0.9778050179108174
+peephole-basic-tji6.out.lisp,Constant Propagation and inlining (4),666693.5999419366,0.97371485051298
+peephole-basic-tji6.out.lisp,Inlining (2),669691.1000290129,0.9780927391704598
+peephole-basic-tji6.out.lisp,Inlining and Peephole (6),655375.4999913508,0.9571846153308283
+peephole-basic-tji6.out.lisp,No optimizations (0),684690.7999715768,1.0
+peephole-basic-tji6.out.lisp,Peephole (3),711976.999991748,1.0398518572490005
+peephole.lisp,CP and Inlining and Peephole (7),698589.4000536064,0.9192281471995958
+peephole.lisp,Constant Propagation (1),702034.2000032542,0.9237609343775075
+peephole.lisp,Constant Propagation and Peephole (5),862959.599999158,1.1355121537121227
+peephole.lisp,Constant Propagation and inlining (4),713975.1000067918,0.9394731844994034
+peephole.lisp,Inlining (2),698876.6000176838,0.9196060548672964
+peephole.lisp,Inlining and Peephole (6),703193.6999737809,0.9252866446294858
+peephole.lisp,No optimizations (0),759973.9000397676,1.0
+peephole.lisp,Peephole (3),686199.8999738717,0.9029256135479975
+read_inline.lisp,CP and Inlining and Peephole (7),704358.2000733295,0.9614177523566771
+read_inline.lisp,Constant Propagation (1),704102.9999527382,0.9610694154929698
+read_inline.lisp,Constant Propagation and Peephole (5),706464.9999847461,0.9642934409413895
+read_inline.lisp,Constant Propagation and inlining (4),705621.7999888759,0.963142510286032
+read_inline.lisp,Inlining (2),700164.8999903409,0.9556940834332172
+read_inline.lisp,Inlining and Peephole (6),727784.1999894008,0.9933932048802259
+read_inline.lisp,No optimizations (0),732624.4999603659,1.0
+read_inline.lisp,Peephole (3),702291.0000159754,0.9585961158191796
+readnum-constant-prop.lisp,CP and Inlining and Peephole (7),711951.9000298169,0.9599576241952109
+readnum-constant-prop.lisp,Constant Propagation (1),715935.1000154857,0.9653283566769655
+readnum-constant-prop.lisp,Constant Propagation and Peephole (5),724728.6999700009,0.9771851735772449
+readnum-constant-prop.lisp,Constant Propagation and inlining (4),720273.1999313983,0.9711776171236705
+readnum-constant-prop.lisp,Inlining (2),768804.4000133232,1.0366144753272035
+readnum-constant-prop.lisp,Inlining and Peephole (6),716505.8000282443,0.9660978578586505
+readnum-constant-prop.lisp,No optimizations (0),741649.3000164337,1.0
+readnum-constant-prop.lisp,Peephole (3),715070.8000153827,0.9641629810741248
+readnum-let-def.lisp,CP and Inlining and Peephole (7),747394.7999642405,0.9914232141598052
+readnum-let-def.lisp,Constant Propagation (1),868677.8999617674,1.1523058973528997
+readnum-let-def.lisp,Constant Propagation and Peephole (5),706826.399982674,0.9376090138135228
+readnum-let-def.lisp,Constant Propagation and inlining (4),703828.8000330795,0.9336326813893013
+readnum-let-def.lisp,Inlining (2),1257301.500027097,1.6678171889668607
+readnum-let-def.lisp,Inlining and Peephole (6),712354.7000446706,0.9449423335216165
+readnum-let-def.lisp,No optimizations (0),753860.5000263487,1.0
+readnum-let-def.lisp,Peephole (3),708695.8999934723,0.9400889156133025
+recursive-cse.lisp,CP and Inlining and Peephole (7),783868.4000489593,1.0134900852345037
+recursive-cse.lisp,Constant Propagation (1),739291.9999801961,0.9558557431659672
+recursive-cse.lisp,Constant Propagation and Peephole (5),748529.3000172533,0.9677989622079761
+recursive-cse.lisp,Constant Propagation and inlining (4),741281.2999973539,0.9584277767417821
+recursive-cse.lisp,Inlining (2),743920.9000040137,0.9618406052670391
+recursive-cse.lisp,Inlining and Peephole (6),746618.5999874142,0.965328553226088
+recursive-cse.lisp,No optimizations (0),773434.7000223352,1.0
+recursive-cse.lisp,Peephole (3),736529.7999967879,0.9522844009656128
+recursive-inline.lisp,CP and Inlining and Peephole (7),705479.899988859,0.9584583746672178
+recursive-inline.lisp,Constant Propagation (1),689094.7000101733,0.9361975956706561
+recursive-inline.lisp,Constant Propagation and Peephole (5),686264.3000204116,0.9323522407939433
+recursive-inline.lisp,Constant Propagation and inlining (4),724080.3000058804,0.9837287036571096
+recursive-inline.lisp,Inlining (2),702139.3999821157,0.9539200026922126
+recursive-inline.lisp,Inlining and Peephole (6),702261.8000519287,0.9540862942789381
+recursive-inline.lisp,No optimizations (0),736056.8999501993,1.0
+recursive-inline.lisp,Peephole (3),692314.7000634344,0.9405722575391599
+recursive-inlining.lisp,CP and Inlining and Peephole (7),6726061.700010178,1.4839247592351341
+recursive-inlining.lisp,Constant Propagation (1),4673534.9999835305,1.0310899020770266
+recursive-inlining.lisp,Constant Propagation and Peephole (5),4892091.199963033,1.0793084541657532
+recursive-inlining.lisp,Constant Propagation and inlining (4),4331374.000048528,0.955601272609439
+recursive-inlining.lisp,Inlining (2),4388946.400013084,0.9683030754721546
+recursive-inlining.lisp,Inlining and Peephole (6),6661390.099998243,1.4696567086644836
+recursive-inlining.lisp,No optimizations (0),4532616.399956169,1.0
+recursive-inlining.lisp,Peephole (3),4502019.29998002,0.9932495721507683
+repeat-constant-calculation.lisp,CP and Inlining and Peephole (7),691998.7000401306,0.9232178793585735
+repeat-constant-calculation.lisp,Constant Propagation (1),704696.3999528089,0.9401582920868553
+repeat-constant-calculation.lisp,Constant Propagation and Peephole (5),709486.0000506742,0.9465482527111605
+repeat-constant-calculation.lisp,Constant Propagation and inlining (4),713738.2999644615,0.9522213837568918
+repeat-constant-calculation.lisp,Inlining (2),688587.3000101128,0.9186666200842797
+repeat-constant-calculation.lisp,Inlining and Peephole (6),700551.8000369193,0.9346288470966907
+repeat-constant-calculation.lisp,No optimizations (0),749550.7999919937,1.0
+repeat-constant-calculation.lisp,Peephole (3),693902.3000086308,0.9257575337335945
+short-func-few-calls.lisp,CP and Inlining and Peephole (7),667185.2000181389,0.9825985478661973
+short-func-few-calls.lisp,Constant Propagation (1),666836.9000180974,0.9820855882348187
+short-func-few-calls.lisp,Constant Propagation and Peephole (5),655130.2999469044,0.9648446658790893
+short-func-few-calls.lisp,Constant Propagation and inlining (4),653340.6999551516,0.962209028348296
+short-func-few-calls.lisp,Inlining (2),682413.5999522696,1.0050262091230653
+short-func-few-calls.lisp,Inlining and Peephole (6),658126.500002254,0.9692573264468344
+short-func-few-calls.lisp,No optimizations (0),679000.7999370573,1.0
+short-func-few-calls.lisp,Peephole (3),661712.3000069114,0.9745383217048514
+simple-inline.lisp,CP and Inlining and Peephole (7),688087.5000206288,0.9442980297786174
+simple-inline.lisp,Constant Propagation (1),680082.5000027544,0.9333123546355143
+simple-inline.lisp,Constant Propagation and Peephole (5),705934.6999994887,0.9687906644749272
+simple-inline.lisp,Constant Propagation and inlining (4),703670.90002037,0.9656839347929748
+simple-inline.lisp,Inlining (2),687210.8000607113,0.9430948891245113
+simple-inline.lisp,Inlining and Peephole (6),699088.7000029034,0.9593955449466026
+simple-inline.lisp,No optimizations (0),728676.2000148883,1.0
+simple-inline.lisp,Peephole (3),691954.6999597515,0.9496051880734041
+sporadic-subexpressions.lisp,CP and Inlining and Peephole (7),638138.3000189089,0.9124714824799284
+sporadic-subexpressions.lisp,Constant Propagation (1),638825.5000274512,0.9134541071093171
+sporadic-subexpressions.lisp,Constant Propagation and Peephole (5),656017.7000210388,0.9380371672622266
+sporadic-subexpressions.lisp,Constant Propagation and inlining (4),646151.1999987124,0.923929097111926
+sporadic-subexpressions.lisp,Inlining (2),650500.2999801945,0.9301478583231537
+sporadic-subexpressions.lisp,Inlining and Peephole (6),648426.4999926381,0.9271825397566982
+sporadic-subexpressions.lisp,No optimizations (0),699351.5000431216,1.0
+sporadic-subexpressions.lisp,Peephole (3),876512.6000071177,1.253321970358357
+subsequent_leaf_functions.lisp,CP and Inlining and Peephole (7),703441.0999949614,0.9591831030209816
+subsequent_leaf_functions.lisp,Constant Propagation (1),720759.3999737583,0.9827976184549384
+subsequent_leaf_functions.lisp,Constant Propagation and Peephole (5),722668.9000162878,0.9854013335009107
+subsequent_leaf_functions.lisp,Constant Propagation and inlining (4),703264.9999928253,0.9589429803632465
+subsequent_leaf_functions.lisp,Inlining (2),693595.4999789828,0.9457580512654084
+subsequent_leaf_functions.lisp,Inlining and Peephole (6),698598.0000536074,0.9525792528478514
+subsequent_leaf_functions.lisp,No optimizations (0),733375.1999794913,1.0
+subsequent_leaf_functions.lisp,Peephole (3),684146.999992663,0.9328744686373293
+sumOfLISmke2.lisp,CP and Inlining and Peephole (7),696362.7999539312,0.9583179602176638
+sumOfLISmke2.lisp,Constant Propagation (1),754413.1000031484,1.0382054055792906
+sumOfLISmke2.lisp,Constant Propagation and Peephole (5),694481.0999812034,0.9557284093689892
+sumOfLISmke2.lisp,Constant Propagation and inlining (4),692260.2000486222,0.9526720595849691
+sumOfLISmke2.lisp,Inlining (2),697585.5000746378,0.960000611108422
+sumOfLISmke2.lisp,Inlining and Peephole (6),735508.3000220475,1.0121890684667825
+sumOfLISmke2.lisp,No optimizations (0),726651.100012532,1.0
+sumOfLISmke2.lisp,Peephole (3),704829.6999528247,0.9699699070718658
+tri_1.lisp,CP and Inlining and Peephole (7),699343.1999944733,0.9520610446864153
+tri_1.lisp,Constant Propagation (1),688131.5000100585,0.9367978337193866
+tri_1.lisp,Constant Propagation and Peephole (5),697977.9000175768,0.9502023736900794
+tri_1.lisp,Constant Propagation and inlining (4),694605.5999833334,0.945611443952544
+tri_1.lisp,Inlining (2),733831.3999753154,0.9990120577274717
+tri_1.lisp,Inlining and Peephole (6),709221.1999406572,0.9655086036935674
+tri_1.lisp,No optimizations (0),734557.0999859774,1.0
+tri_1.lisp,Peephole (3),714714.7999603476,0.9729873960431278
+two_function_inlining.lisp,CP and Inlining and Peephole (7),705310.6000057596,0.9706236957801782
+two_function_inlining.lisp,Constant Propagation (1),717085.7999881264,0.9868283127607569
+two_function_inlining.lisp,Constant Propagation and Peephole (5),687064.4999253273,0.9455140531723687
+two_function_inlining.lisp,Constant Propagation and inlining (4),710768.0000444816,0.9781339781931916
+two_function_inlining.lisp,Inlining (2),692430.2000697935,0.9528981414089945
+two_function_inlining.lisp,Inlining and Peephole (6),699143.0999732984,0.9621361986758059
+two_function_inlining.lisp,No optimizations (0),726657.100040029,1.0
+two_function_inlining.lisp,Peephole (3),721632.0000225096,0.9930846337051649
+unique_variable_test.lisp,CP and Inlining and Peephole (7),697435.1999815553,0.9513199476932824
+unique_variable_test.lisp,Constant Propagation (1),734085.8999668853,1.0013124659858612
+unique_variable_test.lisp,Constant Propagation and Peephole (5),684718.1000011915,0.9339734889994139
+unique_variable_test.lisp,Constant Propagation and inlining (4),698621.1000366893,0.9529375465446873
+unique_variable_test.lisp,Inlining (2),684168.0999968958,0.9332232745345693
+unique_variable_test.lisp,Inlining and Peephole (6),853826.5999959549,1.16464192869641
+unique_variable_test.lisp,No optimizations (0),733123.7000471447,1.0
+unique_variable_test.lisp,Peephole (3),689385.4999361793,0.9403399452123117
